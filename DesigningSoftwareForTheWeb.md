@@ -23,6 +23,9 @@ Units:
 
 Browser/server, URLs, HTML/CSS/JavaScript, HTTP GET/POST, Using Git/Github
 
+Learning Objectives: The student will be able to:
+*
+
 ## Unit 2: Object Oriented Programming basics.  
 
 Classes, attributes, public/private.   Data Types, Variables, Control Structures.
