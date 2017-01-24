@@ -22,4 +22,5 @@ Resources:
 * https://www.playframework.com/   A web app framework for Java
 * http://jquery.com/               jQuery is a fast, small, and feature-rich JavaScript library. 
 * http://getbootstrap.com/         Bootstrap is a popular HTML/CSS/JS framework for responsive, mobile first web projects.
+* https://think.cs.vt.edu/corgis/  The CORGIS Datasets Project seeks to make highly-motivating introductory computing experiences through simple, easy-to-pick-up datasets for beginners. 
 
