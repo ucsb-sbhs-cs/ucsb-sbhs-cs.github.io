@@ -6,7 +6,7 @@ Units:
 * Unit 1: Fundamentals.  Browser/server, URLs, HTML/CSS/JavaScript, HTTP GET/POST, Using Git/Github.  Form data.
 * Unit 2: Object Oriented Programming basics.  Java Classes, attributes, public/private.   Java Data Types, Variables, Control Structures, Objects.
 * Unit 3: Advanced Object Oriented Programming: Java Inheritance, Interfaces.   Model/View/Controller design pattern.
-* Unit 4: Tools, part 1.  Unit testing tools, more advanced uses of git (branches, merge conflicts).
+* Unit 4: Tools, part 1.  Unit testing tools, more advanced uses of git (branches, merge conflicts).    Build managers (Ant, Maven, Gradle).
 * Unit 5: Working with data, part 1.  JSON, NoSQL databases, APIs (read only).
 * Unit 6: Front end design, part 1.  JavaScript Syntax and Semantics. JQuery, Bootstrap.  UI design principles.  
 * Unit 7: Front end design, part 2.  JavaScript OOP.  Responsiveness (works on both desktop and mobile.) Designing for Accessibility (ADA compliance).
