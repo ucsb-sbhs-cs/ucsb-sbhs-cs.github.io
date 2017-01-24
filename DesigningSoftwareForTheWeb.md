@@ -18,5 +18,8 @@ Units:
 
 Resources:
 
-* http://www.w3schools.com/    Tutorials for HTML, CSS, JavaScript, JQuery, JSON and other topics.
-* 
+* http://www.w3schools.com/        Tutorials for HTML, CSS, JavaScript, JQuery, JSON and other topics.
+* https://www.playframework.com/   A web app framework for Java
+* http://jquery.com/               jQuery is a fast, small, and feature-rich JavaScript library. 
+* http://getbootstrap.com/         Bootstrap is a popular HTML/CSS/JS framework for responsive, mobile first web projects.
+
