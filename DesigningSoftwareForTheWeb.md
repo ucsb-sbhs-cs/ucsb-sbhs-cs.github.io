@@ -4,9 +4,6 @@ Designing Software for the Web
 Units:
 
 * Unit 1: Fundamentals.  Browser/server, URLs, HTML/CSS/JavaScript, HTTP GET/POST, Using Git/Github.  Form data.
-
-Activity: Build a few basic webapps.  Hello World, Unit Conversion, Area Calculator.
-
 * Unit 2: Object Oriented Programming basics.  Java Classes, attributes, public/private.   Java Data Types, Variables, Control Structures, Objects.
 * Unit 3: Advanced Object Oriented Programming: Java Inheritance, Interfaces.   Model/View/Controller design pattern.
 * Unit 4: Tools, part 1.  Unit testing tools, more advanced uses of git (branches, merge conflicts).
@@ -27,7 +24,9 @@ Activity: Build a few basic webapps.  Hello World, Unit Conversion, Area Calcula
 Browser/server, URLs, HTML/CSS/JavaScript, HTTP GET/POST, Using Git/Github
 
 Learning Objectives: The student will be able to:
-*
+
+Activity: Build a few basic webapps.  Hello World, Unit Conversion, Area Calculator.
+
 
 ## Unit 2: Object Oriented Programming basics.  
 
