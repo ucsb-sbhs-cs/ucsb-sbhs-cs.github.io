@@ -12,7 +12,7 @@
   <tr>
      <td class="unit_num">{{unit.num}}</td>
      <td class="unit_name"><a href="{{unit.url}}">{{ unit.name }}</a></td>
-     <td class="unit_summary">{{ unit.summary }}</a></td>
+     <td class="unit_summary">{{ unit.summary }}</td>
      <td class="unit_topics">{% for topic in unit.topics %}{% if forloop.first == true %}{{ topic }}{% else %},{{ topic }}{% endif %}{% endfor %}</td>
    </tr>
 
