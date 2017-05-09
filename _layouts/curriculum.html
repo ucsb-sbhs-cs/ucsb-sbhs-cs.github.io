@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  {% include head.html %} 
+  <title>{{ page.curriculum }}-Unit {{ page.num }}-{{page.name}} </title>
+
+  </head>
+  <body id="page-top">
+    <div id="container" data-role="page">
+    {% include nav.html %}
+    <div id="content"  class="ui-content">
+      <h1>{{ page.curriculum }}-Unit&nbsp;{{ page.num }}-{{page.name}}</h1>
+      <h2>Summary</h2>
+      <p>{{ page.summary }}</p>
+
+<h2>Topics</h2>
+<ul>
+{% for topic in page.topics %}
+<li>{{ topic }}</li>
+{% endfor %}
+</ul>
+
+<h2>Learning Objectives</h2>
+<ul>
+{% for lo in page.learning_objectives %}
+<li>{{ lo }}</li>
+{% endfor %}
+</ul>
+
+
+{{ content }}
+    </div><!-- content -->
+    {% include footer.html %}
+    </div><!-- container -->
+  </body>
+</html>
+
+
+
+

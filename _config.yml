@@ -1,0 +1,49 @@
+title: "UCSB-SBHS-CS"
+github_url: https://github.com/ucsb-sbhs-cs/ucsb-sbhs-cs.github.io
+
+exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+
+timezone: America/Los_Angeles
+
+collections:
+
+  dsw:
+    output: true
+    permalink: /dsw/:path/
+
+  topics:
+    output: true
+    permalink: /topics/:path/
+
+  resources:
+    output: true
+    permalink: /resources/:path/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+  - scope:
+      path: ""
+      type: topics
+    values:
+      layout: topic
+
+  - scope:
+      path: ""
+      type: dsw
+    values:
+      layout: curriculum
+
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: topic
+
+
+safari_on_campus: http://proquest.safaribooksonline.com
+safari_off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048/
