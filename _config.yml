@@ -8,6 +8,7 @@ timezone: America/Los_Angeles
 collections:
 
   dsw:
+    exclude: "index.md"
     output: true
     permalink: /dsw/:path/
 

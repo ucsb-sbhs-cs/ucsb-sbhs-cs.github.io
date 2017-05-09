@@ -8,12 +8,15 @@
 <tbody>
 
 {% for unit in site.dsw %}
-   <tr>
+{% if unit.num  %} <!-- avoids including index.md in list -->
+  <tr>
      <td class="unit_num">{{unit.num}}</td>
      <td class="unit_name"><a href="{{unit.url}}">{{ unit.name }}</a></td>
      <td class="unit_summary">{{ unit.summary }}</a></td>
-     <td class="unit_topics">{% for topic in unit.topics %}{% if forloop.first == true %}{{ topic }}{% else %},{{ topic }}{% endif %}{% endfor %}</td>	
+     <td class="unit_topics">{% for topic in unit.topics %}{% if forloop.first == true %}{{ topic }}{% else %},{{ topic }}{% endif %}{% endfor %}</td>
    </tr>
-   {% endfor %}
+
+{% endif %} <!-- if unit.num -->
+{% endfor %} <!-- for unit in site.dsw -->
   </tbody>
   </table>
