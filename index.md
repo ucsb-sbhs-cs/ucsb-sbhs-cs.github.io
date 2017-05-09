@@ -28,6 +28,7 @@ This page documents collaborations between UCSB CS faculty and the SBHS Computer
 * Lecture in small chunks, divided up by "now apply this".
     * Live coding, alternating with students try it.
 * Sometimes its just "work on this project" and teacher walks around and just helps students with 
+* Exams take the form, typically of quizzes and unit tests (exam at end of each unit).
 
 </div>
 
