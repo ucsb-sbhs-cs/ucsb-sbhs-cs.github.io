@@ -8,8 +8,8 @@ This page documents collaborations between UCSB CS faculty and the SBHS Computer
 </div>
 
 
-<div id="about" data-role="collapsible" data-collapsed="true" markdown="1">
-<h2>About SBHS CS Academy</h2>
+<div id="design-constraints" data-role="collapsible" data-collapsed="true" markdown="1">
+<h2>Curriculum Design Constraints</h2>
 * The SBHS school year is divided into four 9-week quarters.    
 * A curriulum with 12 units should proceed on an average pace of one unit every three weeks.   
 * Each week provides an opportunity for about 2.5 hours of instruction and 2.5 hours of lab.
