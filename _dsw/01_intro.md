@@ -36,5 +36,7 @@ learning_objectives:
 
 ## Activities
 
+* TODO: Fill in activities, labs, homework... 
+
 
 
