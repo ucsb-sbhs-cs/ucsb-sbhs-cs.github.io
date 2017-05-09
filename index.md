@@ -30,6 +30,14 @@ This page documents collaborations between UCSB CS faculty and the SBHS Computer
 * Sometimes its just "work on this project" and teacher walks around and just helps students with 
 * Exams take the form, typically of quizzes and unit tests (exam at end of each unit).
 
+DSW:
+
+* Mon, Tue: 57 minutes
+* Wed OR Thu: 92 minutes
+* Fri: 57 minutes
+
+
+
 </div>
 
 <div id="dsw" data-role="collapsible" data-collapsed="false">
