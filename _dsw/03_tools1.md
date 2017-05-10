@@ -21,13 +21,16 @@ learning_objectives:
  - "The student will be able to identify which parts of a Python unittest suite are annotations (e.g.  @unittest.skip())"
  - "The student will be able to differentiate between inherited methods and user-defined methods in the limited context of extending the unittest class to create test suites"
  - "The student will demonstrate an ability to use the Python documentation to locate the inherited methods of unittest"
- - "The student will be able to explain the red/green/refactor cycle"
- - "The student will be able to demonstrate the red/green/refactor cycle"
+ - "The student will be able to explain and demonstrate the red/green/refactor cycle"
  - "The student will be able to write code to throw Python exceptions when appropriate (e.g. when parameter values are not reasonable)"
  - "The student will be able to write the appropriate unittest methods to check that the correct Python exceptions are thrown"
  - "The student will demonstrate an understanding of importing modules, both user-defined and standard modules"
- - "The student will demonstrate an understanding of how to create their own modules"
+ - "The student will demonstrate an understanding of how to create, import and use their own modules"
  - "The student will demonstrate that they can use pip to install third-party libraries and then import them in their code"
+ - "The student will demonstrate an understanding of the roles of driver and navigator in pair-programming"
+ - "The student will be able to explain possible benefits and drawbacks of pair-programming"
+ - "The student will be able to explain and demonstrate both roles Llewellyn's Falco's Strong-Style Pair Programing"
+ - "The student will be able to explain, and demonstrate various roles in mob programming"
 ---
 
 
