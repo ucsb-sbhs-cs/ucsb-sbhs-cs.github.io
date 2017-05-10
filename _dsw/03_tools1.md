@@ -2,7 +2,7 @@
 curriculum: DSW
 name: "Tools and Practices, Part 1"
 num: 3
-summary: "Unit testing in Python, Test-Driven Development Using Git/Github, Exceptions, Modules"
+summary: "Unit testing in Python, Test-Driven Development, Exceptions, Modules"
 topics:
  - Python unittest
  - "Background on Python OOP and classes (minimal amount needed to understand use of unittest)"
