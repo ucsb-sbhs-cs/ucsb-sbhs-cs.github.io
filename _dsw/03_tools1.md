@@ -12,6 +12,9 @@ topics:
  - "creating user-defined modules"
  - using pip to install modules
  - Python annotations
+ - Pair programming
+ - Llewellyn Falco's Strong-Style Pair Programming
+ - Mob programming
 learning_objectives:
  - "The student will be able to create test cases for simple numeric functions"
  - "The student will be able to create test cases for functions involving complex data types"
