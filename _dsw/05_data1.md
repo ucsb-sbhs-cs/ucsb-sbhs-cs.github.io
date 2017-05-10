@@ -4,10 +4,6 @@ name: "Data, Part 1"
 num: 5
 summary: "JSON, JSON APIs (read only), environment variables, access tokens"
 topics:
- - "Managing environment variables locally (for access tokens)"
- - "Accessing environment variables in Python code"
- - "Managing environment variables in Python"
- - "Using .gitignore to protect secret values"
  - "JSON syntax"
  - "JSON modules in Python (json.loads() and json.dumps())"
  - "Accessing JSON APIs"
