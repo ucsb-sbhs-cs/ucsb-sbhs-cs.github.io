@@ -1,7 +1,7 @@
 ---
 curriculum: DSW
 name: "Security"
-num: 8
+num: 6
 summary: "OAuth.  Web App vulnerabilities.  Sanitizing Inputs"
 topics:
  - TBD
