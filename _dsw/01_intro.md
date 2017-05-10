@@ -16,7 +16,6 @@ topics:
  - "Form Data in Flask Apps"
  - "Simple computation on form data in a Flask App"
  - "HTTP GET/POST for form data."
-
 learning_objectives:
  - "The student will be able to create a simple static web page using HTML"
  - "The student will be able to add CSS styling to a simple static web page"
