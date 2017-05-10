@@ -1,7 +1,7 @@
 ---
 curriculum: DSW
 name: "Projects"
-num: 12
+num: 10
 summary: "Students work on final capstone projects"
 topics:
  - TBD
