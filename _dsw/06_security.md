@@ -23,8 +23,8 @@ learning_objectives:
  - "The student will be able to write Python code to add a CAPTCHA to a web application using FlaskWTF"
  - "The student will be able to explain the difference between authentication and authorization"
  - "The student will be able to identify whether a given scenario involves authentication, authorization, neither or both, and explain their answer"
-  - "The student will be able to give an example of a web application where role based security is appropriate"
-  - "The student will be able to write Python code to add role based security to a simple Flask web application."
+ - "The student will be able to give an example of a web application where role based security is appropriate"
+ - "The student will be able to write Python code to add role based security to a simple Flask web application."
 ---
 
 
