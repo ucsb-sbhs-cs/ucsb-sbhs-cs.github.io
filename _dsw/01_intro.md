@@ -40,4 +40,14 @@ learning_objectives:
 * TODO: Fill in activities, labs, homework... 
 
 
+A concise 3-5 sentences describing the topics being addressed that demonstrate the critical thinking, depth, and progression of the content covered
+
+A brief 3-5 sentences summarizing a key assignment from this unit and covering:
+* how a student will complete this assignment
+* what a student will produce
+* what the student will learn
+
+Most importantly, use the unit(s) and key assignment(s) to demonstrate that the course meets the subject-specific course criteria for a [g course on the A-G guide](http://www.ucop.edu/agguide/a-g-requirements/g-college-prep/index.html)
+
+
 
