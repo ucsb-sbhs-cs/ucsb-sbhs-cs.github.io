@@ -32,11 +32,13 @@ learning_objectives:
  - "The student will be able to create simple web apps involving simple computation on data from forms, using GET"
  - "The student will be able to create simple web apps involving simple computation on data from forms, using POST"
  - "The student will be able to correctly identify the differences between using GET and POST in webapps."
+uc_ag_summary: >
+  In this unit, the student learn to identify key components, skills, technologies and terminology that are needed for the rest of the course.
 ---
 
 
-uc_ag_summary: >
-  In this unit, the student learn to identify key components, skills, technologies and terminology that are needed for the rest of the course.   
+uc_ag_summary: ->
+  In this unit the student learn to identify key components, skills, technologies and terminology that are needed for the rest of the course.   
   These include:  the distinction betwen static and dynamic web content, client vs server side technologies, the request/response model of web interaction, and the role each of the following plays in the display of a web page:  HTML, CSS, and JavaScript.    
   A small amount of Python code will be covered, but most Python details are deferred to later units.  
 The student will also learn a few hands-on skills for producing  both static and dynamic web pages and will produce a few small examples that will serve as starting points for later projects that explore these topics in more depth.   
