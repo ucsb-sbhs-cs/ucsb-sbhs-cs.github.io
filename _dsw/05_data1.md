@@ -24,6 +24,15 @@ learning_objectives:
  - "The student will be able to write code that accesses read-only APIs via HTTP, using access tokens and respecting rate limits"
  - "The student will be able to correctly write Python code that computes functions over the data returned by a JSON API, given that the data structure may contain nested lists and dictionaries."
  - "The student will be able to write Python code that presents the results of JSON queries in a way that is readable by a human end user, using HTML tables or lists, as appropriate."
+
+
+uc_ag_summary: >
+  TBD
+
+uc_ag_assignment: >
+  TBD
+  
+
 ---
 
 

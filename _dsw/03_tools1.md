@@ -31,6 +31,14 @@ learning_objectives:
  - "The student will be able to explain possible benefits and drawbacks of pair-programming"
  - "The student will be able to explain and demonstrate both roles Llewellyn's Falco's Strong-Style Pair Programing"
  - "The student will be able to explain, and demonstrate various roles in mob programming"
+
+uc_ag_summary: >
+  TBD
+
+uc_ag_assignment: >
+  TBD
+  
+
 ---
 
 

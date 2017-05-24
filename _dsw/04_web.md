@@ -28,6 +28,14 @@ learning_objectives:
  - "Student will be able to use environment variables to set up an application secret for CSRF protection"
  - "Student will be able to explain how a .gitignore protects the value of the application secret from being exposed via github"
  - "Student will be able to explain how to set an application secret on a Heroku deployment"
+
+
+uc_ag_summary: >
+  TBD
+
+uc_ag_assignment: >
+  TBD
+  
 ---
 
 

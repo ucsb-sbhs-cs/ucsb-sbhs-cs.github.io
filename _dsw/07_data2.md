@@ -13,6 +13,15 @@ learning_objectives:
  - "Student will be able to write Python code to implement CRUD operations for a MongoDB database"
  - "Student will be able to explain what a Restful API is"
  - "Student will be able to write Python code to implement CRUD operations via a Restful API (e.g. for Google Calendar events)"
+
+
+uc_ag_summary: >
+  TBD
+
+uc_ag_assignment: >
+  TBD
+  
+
 ---
 
 

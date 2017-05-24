@@ -27,6 +27,13 @@ learning_objectives:
  - "Students will demonstrate that they understand how to compute functions lists using iteration"
  - "Students will demonstrate that they understand how to work with simple dictionaries using keys, values, and iteration"
  - "Students will demonstrate that they understand how to work with nested data structures involving lists and dictionaries"
+
+uc_ag_summary: >
+  TBD
+
+uc_ag_assignment: >
+  TBD
+  
 ---
 
 

@@ -31,6 +31,16 @@ learning_objectives:
  - "Student will be able to write JavaScript code (using JQuery) to peform AJAX requests"
  - "Student will be able to explain the difference between a multi-page web app and a single-page web app design, both from user perspectives, and implementation perspective."
  - "Student will be able to demonstrate how to turn a simple multiple page app into a single page app using JQuery"
+
+
+uc_ag_summary: >
+  TBD
+
+uc_ag_assignment: >
+  TBD
+  
+
+
 ---
 
 ## Activities

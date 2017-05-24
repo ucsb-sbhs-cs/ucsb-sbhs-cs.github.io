@@ -26,6 +26,15 @@ learning_objectives:
  - "The student will demonstrate that they know how to enter code review comments on a pull request"
  - "The student will demonstrate that they know how to work with issues in Github"
  - "The student will demonstrate that understand the idea of a Kanban board for tracking issues" 
+
+
+uc_ag_summary: >
+  TBD
+
+uc_ag_assignment: >
+  TBD
+  
+
 ---
 
 
