@@ -2,6 +2,7 @@
 curriculum: DSW
 name: "Data, Part 1"
 num: 5
+hnum: 5
 summary: "JSON, JSON APIs (read only), Python requests module, access tokens, computing with JSON data"
 topics:
  - "Python requests module"

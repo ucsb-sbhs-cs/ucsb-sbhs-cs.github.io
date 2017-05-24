@@ -2,6 +2,7 @@
 curriculum: DSW
 name: "Web Fundamentals"
 num: 4
+hnum: 4
 summary: "Deeper introduction to Flask Web Framework, and MVC-based web applications, intro to cloud deployment"
 topics:
  - "Additional Python Web App Practice"

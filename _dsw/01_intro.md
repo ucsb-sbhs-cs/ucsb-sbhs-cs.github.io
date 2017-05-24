@@ -2,6 +2,7 @@
 curriculum: DSW
 name: Introduction
 num: 1
+hnum: 1
 summary: "Brief introduction to each component of web app development"
 topics:
  - "First static Web Page"

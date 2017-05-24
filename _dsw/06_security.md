@@ -2,6 +2,7 @@
 curriculum: DSW
 name: "Security"
 num: 6
+hnum: 6
 summary: "OAuth.  Web App vulnerabilities.  Sanitizing Inputs, Captchas"
 topics:
  - Web App Vulnerabilities

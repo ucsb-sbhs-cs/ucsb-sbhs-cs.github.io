@@ -2,6 +2,7 @@
 curriculum: DSW
 name: "Data, Part 2"
 num: 7
+hnum: 7
 summary: "Updating Server Side State"
 topics:
  - "Create/Read/Update/Delete operations"

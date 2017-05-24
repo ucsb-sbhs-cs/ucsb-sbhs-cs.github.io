@@ -2,6 +2,7 @@
 curriculum: DSW
 name: "Tools and Practices, Part 1"
 num: 3
+hnum: 3
 summary: "Unit testing in Python, Test-Driven Development, Exceptions, Modules"
 topics:
  - Python unittest

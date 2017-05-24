@@ -2,6 +2,7 @@
 curriculum: DSW
 name: Python
 num: 2
+hnum: 2
 summary: "Crash course in Python for students that have some programming background (e.g. in Scratch, Snap, Processing, Java, Swift, etc.)"
 topics:
  - "Python Read/Eval/Print loop (REPL)"
