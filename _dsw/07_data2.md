@@ -16,12 +16,13 @@ learning_objectives:
 
 
 uc_ag_summary: >
-  TBD
+  In this unit, the student will learn how to update long-term server side state, which is an essential element for building web applications that can allow users to upload data, associate data and permissions with individual users, and store user preferences.
 
 uc_ag_assignment: >
-  TBD
+  A key assignment for this unit is to incorporate user preferences into the data application developed in Unit 5 as a way of practicing the skill of storing long term state.
+  While the mechanism for doing so will be standard across each student's project, the precise as to which user preferences are stored, and the rationale for those will have to be determined by each student on the basis of something that makes sense for the problem they have chosen (for example, default values for a search, preferred units.)
+  Students will learn about an important component of application development, while practicing their critical thinking and analysis skills.
   
-
 ---
 
 

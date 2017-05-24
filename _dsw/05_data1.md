@@ -27,12 +27,16 @@ learning_objectives:
 
 
 uc_ag_summary: >
-  TBD
+  In this unit, the students will learn about JavaScript Object Notation (JSON), one of the most important ways in which data is currently exchanged among web systems, and the various data sources available.
+  Students will learn how to do the research necessary to find providers of data related to their interests, do computations over that data, and present that data to a user.
 
 uc_ag_assignment: >
-  TBD
+  A key assignment for this unit will be to write a web application that answers an interesting question by doing a computation over JSON data accesssed from some web data source's Application Programming Interface (API).
+  The question, and data source will be one identified by the student.
+  Examples may include using the Google Maps API for locating something on a map, an Amazon API for answering questions about available merchandise, a US Census Bureau API for identifying information about populated areas, or a US Geological Survey API for information about seismic events. 
+  The student will be responsible for identifying a question and a data source that are appropriately matched, writing test cases for the computation, implementing the computation, and making that computation available via a web application, in a way that is secure and respects any applicable terms-of-service imposed by the data provider.
+  Students will learn how to leverage the skills gained in earlier units to explore questions that can be answered with data.
   
-
 ---
 
 

@@ -27,12 +27,13 @@ learning_objectives:
  - "The student will be able to write Python code to add role based security to a simple Flask web application."
 
 uc_ag_summary: >
-  TBD
+  In this unit, students explore the vital issue of cybersecurity through the lens of web applications.  They will learn about the various kinds of attacks, and how to defend against them.    This unit also lays the foundation for implementing applications that store long-term server side state (e.g. databases), given that these applications are considerably more vulnerable to attack that the ones developed earlier in the course.
 
 uc_ag_assignment: >
-  TBD
-  
-
+  A key assignment for this unit will be the implementation of a web application that provides login/logout capability via OAuth.
+  This is a pre-requisite skill for any application that will store state associated with user accounts.
+  It is also one that requires careful reading and serious attention to analytical thinking in order to successfully debug and deploy.
+ 
 ---
 
 
