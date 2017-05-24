@@ -39,6 +39,7 @@ learning_objectives:
 
 * TODO: Fill in activities, labs, homework... 
 
+## Info for UC area g application
 
 A concise 3-5 sentences describing the topics being addressed that demonstrate the critical thinking, depth, and progression of the content covered
 
@@ -49,5 +50,17 @@ A brief 3-5 sentences summarizing a key assignment from this unit and covering:
 
 Most importantly, use the unit(s) and key assignment(s) to demonstrate that the course meets the subject-specific course criteria for a [g course on the A-G guide](http://www.ucop.edu/agguide/a-g-requirements/g-college-prep/index.html)
 
+* Strengthen general study skills, particularly analytical reading, expository writing, and oral communications;
+* Provide an opportunity to begin work that could lead directly into a major program of study at the University; and
+* Experience, at some depth, new areas of academic disciplines that might form the basis for future major or minor studies at the University.
 
+Course criteria & guidance
 
+All elective courses must satisfy the following general criteria to meet the area “g” requirement:
+
+* Be academically challenging;
+* Involve substantial reading and writing;
+* Include problem-solving and laboratory work, as appropriate;
+* Show serious attention to analytical thinking, as well as factual content;
+* Develop students’ oral and listening skills; and
+* Incorporate learning to develop skills and cultivate interest in the academic enterprise.
