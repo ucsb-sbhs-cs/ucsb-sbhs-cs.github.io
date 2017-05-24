@@ -9,6 +9,7 @@ This page documents collaborations between UCSB CS faculty and the SBHS Computer
 
 
 <div id="design-constraints" data-role="collapsible" data-collapsed="true" markdown="1">
+
 <h2>Curriculum Design Constraints</h2>
 * The SBHS school year is divided into four 9-week quarters.    
 * A curriulum with 12 units should proceed on an average pace of one unit every three weeks.   
@@ -50,7 +51,8 @@ DSW:
 This site is maintained in this github repo: <{{ site.github_url }}>, and is based on Github Pages, Jekyll, and JQuery Mobile.  It can be directly edited through the Github web interface, or offline.
 </div>
 
-<div id="uc-ag"   data-role="collapsible" data-collapsed="true" markdown="1">
+<div id="a-g" data-role="collapsible" data-collapsed="true" markdown="1">
+<h2>Information needed for UC A-G requirements</h2>
 
 For EACH unit of the course, please provide:
 
