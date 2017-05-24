@@ -6,7 +6,7 @@ layout: default
 {% for unit in site.dsw %}
 {% if unit.num  %} <!-- avoids including index.md in list -->
 
-<h2><a href="{{unit.url}}">Unit {{unit.num}}</a></h2>
+<h2><a href="{{unit.url}}">Unit {{unit.num}}: {{unit.name}}</a></h2>
 
 <h3>Summary</h3>
 {{ unit.summary }}
