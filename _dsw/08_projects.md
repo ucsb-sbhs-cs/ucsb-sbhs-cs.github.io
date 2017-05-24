@@ -1,7 +1,7 @@
 ---
 curriculum: DSW
 name: "Projects"
-hnum: 10
+num: 8
 summary: "Students work on final capstone projects"
 topics:
  - To be chosen by students
@@ -15,14 +15,15 @@ uc_ag_summary: >
 uc_ag_assignment: >
    For their capstone project, the student may work either alone, in a pair, or in a team of 3-5 students according to their preference to either build a new application, or to add significant new features to an application already developed in previous units.
    The project will be assessed on the basis of usefulness, user experience, code readability, test coverage, reliability, and security.
-   Students in the honors version will also be assessed on their ability to apply the tools and practices from Unit 9, including User Stories for product design and Kanban for project management.
-   Students working in pairs or teams will be evaluated on the basis of their ability to demonstrate appropriate teamwork practices.
    This unit provides an authentic encounter with software development as it is practiced in undergraduate computing curricula, as well as the commercial software industry, and offers an opportunity for students to develop and demonstrate all of the elements required of a UC approved "area g" course.
+
+  
+
+
 ---
 
+
 ## Activities
-
-
 
 
 

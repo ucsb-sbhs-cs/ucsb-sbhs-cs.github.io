@@ -1,7 +1,7 @@
 ---
 curriculum: DSW
 name: "Tools and Practices, Part 2"
-num: 9
+hnum: 9
 summary: "More advanced uses of git (branches, merge conflicts), End-to-end integration testing, Continuous integration."
 topics:
  - github forks

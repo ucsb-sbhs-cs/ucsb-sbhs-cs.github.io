@@ -1,7 +1,7 @@
 ---
 curriculum: DSW
 name: "Front End Design, Part 1"
-num: 8
+hnum: 8
 summary: "JavaScript Syntax and Semantics. JQuery, Bootstrap.  UI design principles."
 topics:
  - "JavaScript Syntax and Semantics"
@@ -34,7 +34,7 @@ learning_objectives:
 
 
 uc_ag_summary: >
-  TBD
+  
 
 uc_ag_assignment: >
   TBD

@@ -49,6 +49,9 @@ DSW:
 {% include dsw.md %}
 </div>
 
+<div id="dsw-h" data-role="collapsible" data-collapsed="false">
+{% include dsw-h.md %}
+</div>
 
 <div id="about" data-role="collapsible" data-collapsed="true" markdown="1">
 <h2>About this website</h2>
