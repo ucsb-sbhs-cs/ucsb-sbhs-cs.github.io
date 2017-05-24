@@ -31,10 +31,13 @@ learning_objectives:
 
 
 uc_ag_summary: >
-  TBD
+  In this unit, students go deeper into a particular example of server side web framework, in this case Python Flask.
+  Students will learn about sessions, cookies, and the Model-View-Controller design pattern, and how to apply those concepts to build a multiple page application that maintains state for a user session.
 
 uc_ag_assignment: >
-  TBD
+  A key assignment for this unit will be to write a multi-page application that maintains state for a user-session across multiple web pages, and do to so in a way that avoids common security vulnerabilities.
+  Students will learn some fundamental concepts of the stateless HTTP model, and how a stateful model (sessions) can be built on a stateless model.
+  This units requires students to demonstrate an ability to bring together theory and practice to implement a useful and secure web application.
   
 ---
 
