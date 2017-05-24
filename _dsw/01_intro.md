@@ -32,6 +32,9 @@ learning_objectives:
  - "The student will be able to create simple web apps involving simple computation on data from forms, using GET"
  - "The student will be able to create simple web apps involving simple computation on data from forms, using POST"
  - "The student will be able to correctly identify the differences between using GET and POST in webapps."
+---
+
+
 uc_ag_summary: >
   In this unit, the student learn to identify key components, skills, technologies and terminology that are needed for the rest of the course.   
   These include:  the distinction betwen static and dynamic web content, client vs server side technologies, the request/response model of web interaction, and the role each of the following plays in the display of a web page:  HTML, CSS, and JavaScript.    
@@ -42,8 +45,6 @@ uc_ag_assignment: >
   A key assignment from this unit is the completion of a project that deploys a single static web page that includes HTML, CSS and JavaScript code via github pages, and two dynamic web pages using Python Flask on Heroku.    
   The student will be guided through several examples, and then asked to complete an example on their own with different content.   
   Through the completion of this assignment the student will <b>learn to develop useful skills and cultivate interest in Computer Science.</b>
-
----
 
 
 {{ page.uc_ag_summary}}
