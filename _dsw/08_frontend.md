@@ -1,6 +1,6 @@
 ---
 curriculum: DSW
-name: "Front End Design, Part 1"
+name: "Front End Design"
 hnum: 8
 summary: "JavaScript Syntax and Semantics. JQuery, Bootstrap.  UI design principles."
 topics:
@@ -34,12 +34,14 @@ learning_objectives:
 
 
 uc_ag_summary: >
-  
+  In this unit, the student will focus on the design of the user interface and user experience of a web applicatoin.
+  This unit also covers a more in-depth look at the JavaScript programming language, and typical client-side users of JavaScript for implementing user interfaces, including AJAX requests, and client-side JSON processing.
 
 uc_ag_assignment: >
-  TBD
-  
-
+  The culminating assignment for this unit requires the student to reimplement a portion of a previous version of an application that had multiple pages, but with a single-page design using AJAX, with attention to the design and usability aspects of the application.
+  The student will also be asked to explain their user interface choices in both written form and through a demonstration with an oral explanation.
+  Completion of this assignment demonstrates that the student has understood how the same problem can be solved in two different ways, and that the student has understood the basic concepts of the client and server roles in web system development.
+  The student will also be assessed on the basis of their ability to articulate principles of good user interface design, and put those principles into practice.    
 
 ---
 
