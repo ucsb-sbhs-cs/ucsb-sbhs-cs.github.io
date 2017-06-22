@@ -61,3 +61,7 @@ This site is maintained in this github repo: <{{ site.github_url }}>, and is bas
 <div id="a-g" data-role="collapsible" data-collapsed="true" markdown="1">
 {% include ucag.md %}
 </div>
+
+<div id="topics" data-role="collapsible" data-collapsed="false">
+{% include topics.md %}
+</div>

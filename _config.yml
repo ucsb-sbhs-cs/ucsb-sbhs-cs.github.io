@@ -16,6 +16,10 @@ collections:
     output: true
     permalink: /topics/:path/
 
+  lessons:
+    output: true
+    permalink: /lessons/:path/
+
   resources:
     output: true
     permalink: /resources/:path/
@@ -44,6 +48,13 @@ defaults:
       type: resources
     values:
       layout: topic
+
+  - scope:
+      path: ""
+      type: lessons
+    values:
+      layout: topic
+
 
 
 safari_on_campus: http://proquest.safaribooksonline.com
