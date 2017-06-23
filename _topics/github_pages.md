@@ -52,11 +52,34 @@ And then click the Create repository button:
 
 ![click create repo](click_create_repo.png)
 
+# Create a branch called gh-pages
+
+Github repositories store a history of all changes to a set of files.  They also allow you to keep multiple "versions" of the entire set of files called "branches".
+
+Normally, when getting started with github, we only have one branch called the `master` branch.  But github pages always works from a special branch called `gh-pages`.  Everything on the `gh-pages` branch is what gets published to the web&mdash;and <em>only</em> what is on the `gh-pages` branch gets published to the web.
+
+To create the gh-pages branch, find the part of the page that indicates the current branch.  It is the box that has "Branch: <b>master</b>&nbsp;<span>&#9662;</span>", as shown in the picture below.
+
+![branch](branch.png)
+
+Click the triangle to open the box where you can type in the name of a new branch.  It will then look like this:
+
+![branch_after_click](branch_after_click.png)
+
+
+Then, enter the branch name `gh-pages` so that it looks like this:
+
+![branch_enter_gh_pages](branch_enter_gh_pages.png)
+
+Then press enter, and the new branch is created.
+
+
+
+
 
 
 # TODO: FINISH THIS PAGE BY FILLING IN DETAIL FOR THESE STEPS
 
-3.  Create a branch called `gh-pages`.
 4.  Change the default branch to `gh-pages`
 5.  Create or upload your content:
    * Create an index.html file to be the home page for the site.
