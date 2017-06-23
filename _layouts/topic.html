@@ -2,7 +2,12 @@
 <html lang="en">
   <head>
   {% include head.html %} 
-  <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+  <title>
+    {% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}
+  </title>
+  <script>
+    {% include topics_json.js %}
+  </script>
   </head>
   <body id="page-top">
     <div id="container" data-role="page">
@@ -10,6 +15,18 @@
     <div id="content"  class="ui-content">
     <h1>{{ page.topic}}</h1>
     <p class="topic-summary">{{ page.desc }}</p>
+    {% if page.prereqs %}
+    <div class="readFirst">
+    <h2>Perhaps read these first</h2>
+    <p>You may find it helpful to read the following pages before this one.</p>
+    <ul>
+      {% for p in page.prereqs %}
+      <li data-topic="{{p}}">{{p}}</li>
+      {% endfor %}
+    </ul>
+    </div>
+    {% endif %}
+
     {{ content }}
     </div><!-- content -->
     {% include footer.html %}

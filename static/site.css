@@ -59,3 +59,16 @@ td.year { text-align: center; }
 td.affiliation { text-align: left; }
 
 td.city { text-align: left; }
+
+div.readFirst {
+    width: 20em;
+    max-width: 50%;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid grey;
+    float: right;
+}
+
+pre {
+    display: inline-block;
+}
