@@ -8,7 +8,7 @@ $(document).bind('pageinit', function( event, data ){
 	var data_desc = $(this).data('desc');
 
 	t = topicHash[data_topic];
-	var desc =  (data_desc=="none") ? '': (t.desc);
+	var desc =  (data_desc=="none") ? '': ('&mdash'+t.desc);
 	    
 	$(this).html($('<span><a href="' + t.url + '">' + t.topic + '</a>' + desc + '</span>'));
     });
