@@ -125,7 +125,7 @@ You can create an `index.html` file right in the browser by clicking the "Create
 
 ![Create new file button](create-new-file-button-50pct.png)
 
-After clicking this button, you'll see that you can enter text for a new file. Give the file the name index.html, and type in some HTML code for a simple web page.   You can find some on the topic page <span data-topic="html"></span>.
+After clicking this button, you'll see that you can enter text for a new file. Give the file the name index.html, and type in some HTML code for a simple web page.   You can find some on the topic page <span data-topic="html" data-desc="none"></span>.
 
 
 # Further editing your content
