@@ -119,7 +119,16 @@ Finally, Step 5 as shown in the diagram below is to see that it worked from the 
 
 # Create or upload your content
 
-Now go back to the main page of the repo.
+Now go back to the main page of the repo.   It will have a URL of the form `http://github.com/`<em>your-user-name</em>`/`<em>your-repo-name</em>
+
+You can create an `index.html` file right in the browser by clicking the "Create new file" button as shown here:
+
+![Create new file button](create-new-file-button-50pct.png)
+
+After clicking this button, you'll see that you can enter text for a new file. Give the file the name index.html, and type in some HTML code for a simple web page.   You can find some on the topic page <span data-topic="html"></span>.
+
+
+# Further editing your content
 
 * Create an index.html file to be the home page for the site.
 * HTML, CSS and JavaScript files are supported.  
