@@ -1,6 +1,8 @@
 ---
 topic: "github pages"
 desc: "Publishing static content online with github pages"
+prereqs:
+   - "html"
 ---
 
 Github offers a simple way to publish websites called "github pages".  
