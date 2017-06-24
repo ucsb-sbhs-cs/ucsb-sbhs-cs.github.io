@@ -4,10 +4,13 @@ $(document).bind('pageinit', function( event, data ){
     console.log("pageinit firing");
 
     $('[data-topic]').each(function() {
-	var value = $(this).data('topic');	
-	t = topicHash[value]
-	console.log("t=" + JSON.stringify(t));
-	$(this).html($('<span><a href="' + t.url + '">' + t.topic + '</a>&mdash;' + t.desc + '</span>'));
+	var data_topic = $(this).data('topic');
+	var data_desc = $(this).data('desc');
+
+	t = topicHash[data_topic];
+	var desc =  (data_desc=="none") ? '': (t.desc);
+	    
+	$(this).html($('<span><a href="' + t.url + '">' + t.topic + '</a>' + desc + '</span>'));
     });
 
     

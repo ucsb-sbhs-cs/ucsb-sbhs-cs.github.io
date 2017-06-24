@@ -125,14 +125,33 @@ You can create an `index.html` file right in the browser by clicking the "Create
 
 ![Create new file button](create-new-file-button-50pct.png)
 
-After clicking this button, you'll see that you can enter text for a new file. Give the file the name index.html, and type in some HTML code for a simple web page.   You can find some on the topic page <span data-topic="html" data-desc="none"></span>.
+After clicking this button, you'll see that you can enter text for a new file. Give the file the name `index.html`, and type in some HTML code for a simple web page.   You can find some on the topic page <span data-topic="html" data-desc="none"></span>.
+
+Here's an image of what that would look like:
+
+![fill in filename and HTML code](fill-in-filename-and-HTML-code.png)
+
+After entering the name `index.html` and some HTML content, to save the file, you'll need to scroll down to find the Commit button.   Saving a file in github involves "committing" it to the repository.   The commit button is the green one in this image:
+
+![commit button](commit_button.png)
 
 
-# Further editing your content
+# Viewing your webpage at username.github.io/repo-name
 
-* Create an index.html file to be the home page for the site.
-* HTML, CSS and JavaScript files are supported.  
-* Server side code (e.g. PHP, Python, Perl, Ruby) is not.
+As long as you have:
 
-# View your webpage at username.github.io/repo-name
+* a username (e.g. jklopez)
+* a repo name (e.g. mypage)
+* an index.html file in the top directory level of your repo on the gh-pages branch
 
+then you should be able to see the webpage at, for example, http://jklopez.github.io/mypage
+
+If you add additional files, they would be found at similar URLs:
+
+* `foo.html` would be at http://jklopez.github.io/mypage/foo.html
+* `bar.html` would be at http://jklopez.github.io/mypage/bar.html
+* If you create a folder baz, and put index.html into it, then that content will appear at http://jklopez.github.io/mypage/baz
+
+# Next steps: CSS and JavaScript files
+
+The next steps would be to add CSS and JavaScript files to your site.   That will be covered in additional topics pages.
