@@ -4,6 +4,10 @@ name: Introduction
 num: 1
 hnum: 1
 summary: "Brief introduction to each component of web app development"
+topicArticles:
+ - "html"
+ - "html: nesting"
+ - "github pages"
 topics:
  - "First static Web Page"
  - "Adding CSS and JavaScript to static web page"

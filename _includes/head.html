@@ -5,9 +5,8 @@
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
 <link rel="stylesheet" href="{{site.baseurl}}/static/site.css" />
+<script src="{{site.baseurl}}/static/viz.js"></script>
+<script>
+ {% include topics_json.js %}
+</script>
 <script src="{{site.baseurl}}/static/site.js"></script>
-{% if page.viz == "lite" %}
- <script src="{{site.baseurl}}/static/viz-lite.js"></script>
-{% elsif page.viz == "full" %}
- <script src="{{site.baseurl}}/static/viz.js"></script>
-{% endif %}

@@ -33,7 +33,20 @@
 <h3>Key Assignment</h3>
 {{ page.uc_ag_assignment}}
 
-      
+
+{% if page.topicArticles %}
+<div class="topicArticles">
+  <h3>Related Topic Articles</h3>
+  <ol>
+    {% for t in page.topicArticles %}
+       <li data-topic="{{t}}">{{t}}</li>
+    {% endfor %}
+  </ol>
+</div>
+{% endif %}
+
+
+
 {{ content }}
     </div><!-- content -->
     {% include footer.html %}

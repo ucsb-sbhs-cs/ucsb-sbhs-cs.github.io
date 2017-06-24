@@ -4,7 +4,8 @@ var topicHash = {
 	{% for t in site.topics %}
     "{{t.topic}}" : { "topic" : "{{t.topic}}",
 		      "desc" : "{{t.desc}}",
-		      "url" : "{{t.url}}"
+		      "url" : "{{t.url}}",
+		      "indent" : {% if t.indent %}true{% else %} false {%endif%}
 		    },
 	{% endfor %}
 };
