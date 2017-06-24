@@ -73,17 +73,57 @@ Then, enter the branch name `gh-pages` so that it looks like this:
 
 Then press enter, and the new branch is created.
 
+# Change the default branch to `gh-pages`
+
+Normally, the default branch in github is the `master` branch.   That makes sense most of the time, but for working with github pages to host a web page, it makes more sense to make `gh-pages` be the default branch.
+
+(Note: if you are confused about what this means at this
+point&mdash;i.e. what a "branch" is and what the "default branch" is,
+etc.&mdash;don't worry too much about it.  It will make more sense
+later on as you have more experience working with github.  Just follow
+the instructions in this section.)
+
+To make `gh-pages` be the default branch, you want to go to the Settings menu
+for the repo you created.
+
+* Note that github has a Settings menu for your account, as well as a Settings menu for each repo you create.
+* To get to the proper Settings menu, follow the instructions below.
+
+Naviate to the main page for your repo.  It will have a URL of the form `http://github.com/`<em>your-user-name</em>`/`<em>your-repo-name</em>
+
+On that page, you should see a link to a menu for Settings as shown here. Click on that link.  
+
+![repo_settings_menu.png](repo_settings_menu_50pct.png)
+
+That will take you to a page with a URL of the form `http://github.com/`<em>your-user-name</em>`/`<em>your-repo-name</em>`/settings`  That page should look like the one below, where you will click on the Branches option as shown here:
+
+![repo_settings_branches.png](repo_settings_branches_50pct.png)
+
+Now, as shown in Step (1) below, find the menu for selecting the default branch&mdash;for a brand new repo, it will look like this:  <b>master</b>&nbsp;<span>&#9662;</span>.  Click on that, and then as shown in Step 2 below, click gh-pages.
+
+![select-default-branch-gh-pages](select-default-branch-gh-pages.png)
+
+That should change the picture so that it looks like the one below.   Then, as shown in Step (3) below, click the Update button:
+
+![click-update-button.png](click-update-button.png)
+
+You will now see the following warning.   It comes up because changing the default branch of a github repo to something other than master is an unusual thing to do.  But for the case of a repo that is being used to publish a simple web page using github pages, it's perfectly fine.  So click the button to confirm our choice, as shown in Step&nbsp;4 below.
+
+![click-to-confirm](click_to_confirm.png)
 
 
+Finally, Step 5 as shown in the diagram below is to see that it worked from the message "Default branch changed to gh-pages" that shows up at the top of the screen, and the fact that the Update button is now greyed out.  To return to the main page for your repo so that you can start creating a web page, click on the name of the repo (as shown in the diagram below as Step 6.)
+
+![changing-default-branch-worked.png](changing-default-branch-worked.png)
 
 
+# Create or upload your content
 
-# TODO: FINISH THIS PAGE BY FILLING IN DETAIL FOR THESE STEPS
+Now go back to the main page of the repo.
 
-4.  Change the default branch to `gh-pages`
-5.  Create or upload your content:
-   * Create an index.html file to be the home page for the site.
-   * HTML, CSS and JavaScript files are supported.  
-   * Server side code (e.g. PHP, Python, Perl, Ruby) is not.
-6.  View your webpage at username.github.io/repo-name
+* Create an index.html file to be the home page for the site.
+* HTML, CSS and JavaScript files are supported.  
+* Server side code (e.g. PHP, Python, Perl, Ruby) is not.
+
+# View your webpage at username.github.io/repo-name
 
