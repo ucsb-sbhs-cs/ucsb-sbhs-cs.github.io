@@ -16,6 +16,10 @@ collections:
     output: true
     permalink: /topics/:path/
 
+  assignments:
+    output: true
+    permalink: /assignments/:path/
+
   lessons:
     output: true
     permalink: /lessons/:path/
@@ -55,7 +59,11 @@ defaults:
     values:
       layout: topic
 
+  - scope:
+      path: ""
+      type: assignments
+    values:
+      layout: assignment
 
 
-safari_on_campus: http://proquest.safaribooksonline.com
-safari_off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048/
+
