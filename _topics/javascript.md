@@ -24,3 +24,6 @@ In order to use JQuery on a web page, all you need to do is include the followin
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 ```
+
+In fact, putting this line in your code is one of the first steps in the W3C Schools tutorial on JQuery, which you are encouraged to pursue to learn some of the basics: <https://www.w3schools.com/jquery/>.
+
