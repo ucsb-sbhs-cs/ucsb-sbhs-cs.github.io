@@ -17,3 +17,20 @@ After completing this assignment, you will know how to:
 * [html](/topics/html/)
 * [github_pages](/topics/github_pages/)
 
+# Outline of assignment
+
+1. Create a web site using static HTML (more detail below)
+   and publish it using github pages.   The site should have
+   a home page (filename `index.html`) as well as at least two
+   other pages linked to from the home page.
+
+2. Add an external style sheet to the website called `site.css`.
+   Your `site.css` file should be reference in each of the `.html` files,
+   and should contain style rules as explained below.
+
+3. Add a line to pull in jquery from a content distribution network,
+   a file called `site.js` that contains site-specific JavaScript,
+   and at least one animation effect (as explained below.)
+
+# TODO: Fill in more details of this assignment...
+

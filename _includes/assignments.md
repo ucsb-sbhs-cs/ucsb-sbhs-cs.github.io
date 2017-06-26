@@ -3,7 +3,7 @@
 <ul>
 {% for a in site.assignments %}
   <li>
-    <a href="{{a.url}}">{{ a.topic}}</a>&mdash;{{a.desc}}
+    <a href="{{a.url}}">{{ a.name}}</a>&mdash;{{a.desc}}
   </li>
 {% endfor %} 
 </ul>
