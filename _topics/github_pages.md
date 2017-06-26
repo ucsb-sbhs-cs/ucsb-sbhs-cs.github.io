@@ -133,7 +133,7 @@ Here's an image of what that would look like:
 
 ![fill in filename and HTML code](fill-in-filename-and-HTML-code.png)
 
-After entering the name `index.html` and some HTML content, to save the file, you'll need to scroll down to find the Commit button.   Saving a file in github involves "committing" it to the repository.   The commit button is the green one in this image:
+After entering the name `index.html` and some HTML content, to save the file, <b>you'll need to scroll down to find the Commit button</b>.   Saving a file in github involves "committing" it to the repository.   The commit button is the green one in this image:
 
 ![commit button](commit_button.png)
 
