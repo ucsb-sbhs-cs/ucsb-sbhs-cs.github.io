@@ -121,7 +121,7 @@ Finally, Step 5 as shown in the diagram below is to see that it worked from the 
 
 # Create or upload your content
 
-Now go back to the main page of the repo.   It will have a URL of the form `http://github.com/`<em>your-user-name</em>`/`<em>your-repo-name</em>
+You should now be at the main page of the repo.   It will have a URL of the form `http://github.com/`<em>your-user-name</em>`/`<em>your-repo-name</em>
 
 You can create an `index.html` file right in the browser by clicking the "Create new file" button as shown here:
 
