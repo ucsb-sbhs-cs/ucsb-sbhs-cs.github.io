@@ -17,8 +17,17 @@ The screen will look something like this.  If you want to keep your personal ide
 * use the email address that is associated with your SBHS student number (e.g. 999999@my.sbunified.org)
 * don't fill in any of the optional questions about your interests, or put anything in your "public profile"
 
-![example of github.com signup](github_com_signup.png)
+![example of github.com signup](fill-in-join-github.png)
 
+Choose the free plan, as shown here, then click continue:
 
+![choose the free option](choose-free-then-continue.png)
 
+The interest survey is entirely optional&mdash;for maximum privacy, you can just skip it.
+
+![don't fill in the interest survey](skip-interest-survey.png)
+
+You are finished!  Now go on with whatever you need to do with your account (e.g. creating a new repository)
+
+![all done](create-accout-done.png)
 
