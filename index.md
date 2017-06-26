@@ -66,6 +66,10 @@ This site is maintained in this github repo: <{{ site.github_url }}>, and is bas
 {% include topics.md %}
 </div>
 
+<div id="resources" data-role="collapsible" data-collapsed="false">
+{% include resources.md %}
+</div>
+
 <div id="assignments" data-role="collapsible" data-collapsed="false">
 {% include assignments.md %}
 </div>
