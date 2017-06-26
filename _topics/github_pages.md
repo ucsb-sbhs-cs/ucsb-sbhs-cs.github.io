@@ -154,6 +154,10 @@ If you add additional files, they would be found at similar URLs:
 * `bar.html` would be at http://jklopez.github.io/mypage/bar.html
 * If you create a folder baz, and put index.html into it, then that content will appear at http://jklopez.github.io/mypage/baz
 
+Now we are going to add a link to your webpage to your README file.  Click on README.md Then clikc on the pencil icon in the upper right hand corner to edit the file.  The first line of your README file should be "# test_webpage".  On the next line, type the link to your webpage, starting with "http://".
+
+Press enter and then scroll down and click "Commit changes".  You should now see the link to your webpage in your README.  Click on it to make sure that it works.
+
 # Next steps: CSS and JavaScript files
 
 The next steps would be to add CSS and JavaScript files to your site.   That will be covered in additional topics pages.
