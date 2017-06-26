@@ -65,3 +65,7 @@ This site is maintained in this github repo: <{{ site.github_url }}>, and is bas
 <div id="topics" data-role="collapsible" data-collapsed="false">
 {% include topics.md %}
 </div>
+
+<div id="assignments" data-role="collapsible" data-collapsed="false">
+{% include assignments.md %}
+</div>
