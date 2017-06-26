@@ -156,7 +156,7 @@ If you add additional files, they would be found at similar URLs:
 
 Now we are going to add a link to your webpage to your README file.  Click on README.md Then clikc on the pencil icon in the upper right hand corner to edit the file.  The first line of your README file should be "# test_webpage".  On the next line, type the link to your webpage, starting with "http://".
 
-Press enter and then scroll down and click "Commit changes".  You should now see the link to your webpage in your README.  Click on it to make sure that it works.
+Now scroll down and click "Commit changes".  You should now see the link to your webpage in your README.  Click on it to make sure that it works.
 
 # Next steps: CSS and JavaScript files
 
