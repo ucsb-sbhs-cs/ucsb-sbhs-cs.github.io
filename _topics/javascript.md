@@ -19,11 +19,34 @@ When using JavaScript on a web site, programmers almost always rely on some libr
 
 One of the most popular such libraries is called JQuery.
 
-In order to use JQuery on a web page, all you need to do is include the following line somewhere in the `<head>` element of your HTML code.   This includes the code for the JQuery library from a [Content Distribution Network provided by Google](https://developers.google.com/speed/libraries/).     You could also get a similar snippet of code from the [Content Distribution Network provided by JQuery.com](https://code.jquery.com/)
+In order to use JQuery on a web page, you typically need to do three things:
 
-```
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-```
+1.   Include the following line somewhere in the `<head>` element of your HTML code.   
+    This includes the code for the JQuery library from a [Content Distribution Network provided by Google](https://developers.google.com/speed/libraries/).     You could also get a similar snippet of code from the [Content Distribution Network provided by JQuery.com](https://code.jquery.com/)
 
-In fact, putting this line in your code is one of the first steps in the W3C Schools tutorial on JQuery, which you are encouraged to pursue to learn some of the basics: <https://www.w3schools.com/jquery/>.
+   ```
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   ```
+
+2.  Include a second `<script>` element after the one that pulls in JQuery, that indicates what should be done
+   on your page after the page loads.  That will look something like this.    The code below indicates that any
+   element that has `class="greenOnClick"` will turn green when you click on it.
+   
+   ```html
+   <script>
+      $(document).ready(function(){
+         $(".greenOnClick").click(function(){
+            $(this).css("color:green");
+         });
+      });
+   </script>
+   ```
+3.  Put the appropriate CSS class on whatever elements you want to apply your effect to.    For example:
+
+
+   ```html
+   <p class="greenOnClick">This paragraph will turn green when you click on it.</p>
+   ```
+
+You are encouraged to use the the W3C Schools tutorial on JQuery, <https://www.w3schools.com/jquery/>, to learn more about how this works.
 
