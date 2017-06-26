@@ -3,7 +3,7 @@ topic: "Privacy Concerns"
 desc: "Your privacy, as a student enrolled in this course"
 ---
 
-Throughout this course, most assignments will involve creating some content or application that is available to public on the web.
+Throughout this course, most assignments will involve creating some content or application that is available to the public on the web.
 
 It is important for you to know how to protect your personal privacy as you create content in this course.
 
