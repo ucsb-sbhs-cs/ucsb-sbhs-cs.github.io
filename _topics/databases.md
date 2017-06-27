@@ -1,11 +1,6 @@
 ---
 topic: "Databases"
-desc: "Storage for data related to your webapps"
----
-
----
-topic: "Databases"
-desc: "Storage that lasts longer than a single session"
+desc: "Storage for data related to your webapps that lasts longer than a single session"
 ---
 
 # Sessions are temporary, so we need more permanent storage
@@ -77,3 +72,6 @@ Before deploying any system that store persistent data on a public-facing server
 * MongoDB, which is a NoSQL document-based system
 * Firebase, https://firebase.google.com/ which is offered by Google
 
+# Examples
+
+* A simple example of using a MongoDB database, separate from a webapp: <https://github.com/ucsb-sbhs-cs/mlab_demo>
