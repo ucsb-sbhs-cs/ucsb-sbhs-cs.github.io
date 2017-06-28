@@ -1,5 +1,5 @@
 ---
-topic: "Python: common errors"
+topic: "Common Errors: Python"
 desc: "Mistakes that folks often make in Python"
 ---
 
