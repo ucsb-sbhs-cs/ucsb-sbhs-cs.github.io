@@ -13,7 +13,13 @@ The `<head>` element in HTML is where we take care of things such as:
 
 This page provides a reference for some of the things you might see in the `<head>` section of a webpage.
 
-# Setting the encoding
+# `<meta>` tags
+
+The `<meta>` tags often appear at the very top of a `<head>` element. 
+
+They are explained more at [this page on W3Schools](https://www.w3schools.com/tags/tag_meta.asp)
+
+## '<meta>' for Setting the encoding
 
 The bits that are used to represent your webpage are converted to characters according to some encoding.  For example, 01000001 might represent the
 capital letter 'A'.   
@@ -28,7 +34,7 @@ choices:
 <meta charset="utf-8">
 ```
 
-# Viewport
+## '<meta>' for the Viewport
 
 As explained on [this page from W3C Schools](https://www.w3schools.com/css/css_rwd_viewport.asp) it is helpful to users
 of your web page that are on mobile devices (e.g. phones, tablets) if you define the viewport.
