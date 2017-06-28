@@ -1,6 +1,7 @@
 ---
 topic: "Flask: Security"
 desc: "Securing user sessions on Flask"
+indent: true
 ---
 
 The following video demonstrates that the fact that user sessions in Flask are cryptographically <em>signed</em> (to protect against 
