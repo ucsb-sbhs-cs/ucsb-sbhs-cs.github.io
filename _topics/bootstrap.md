@@ -8,6 +8,11 @@ prereqs:
 
 Bootstrap is a front end web framework.   
 
+# Example Repository
+
+The repo below contains a demonstration of using Bootstrap with Flask
+* <https://github.com/ucsb-sbhs-cs/webapps-flask-bootstrap-demo1>
+
 # Resources
 
 * Bootstrap main page: <http://getbootstrap.com/>
