@@ -7,8 +7,8 @@ desc: "Delegating username/password authentication to Github, Facebook, Google, 
 
 If you've ever seen a webapp that allows you to "Login with Facebook", "Login with Google", etc. as in the images below, then you've seen an example of a webapp that is probably using OAuth.
 
-![OAuth sample icons](/webapps/oauth/oauth_login_with_icons.png) 
-![OAuth sample buttons](/webapps/oauth/oauth_login_with_buttons.png) 
+![OAuth sample icons](oauth_login_with_icons.png) 
+![OAuth sample buttons](oauth_login_with_buttons.png) 
 
 OAuth allows one web application to delegate the function of "username/password" checking, and account management (creating, updating, verifying and deleting accounts) to some other service, such as Google, Facebook, Github, Twitter, etc.
 
