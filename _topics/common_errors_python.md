@@ -23,3 +23,10 @@ argument `"CA Santa Barbara"`.  The fix is to replace the line of code with:
     sb = counties["CA Santa Barbara"]
 ```
 
+# `ModuleNotFoundError: No module named 'blah'`
+
+This arises when you have `import blah`, but Python can't find the module `blah`.  Try these things:
+
+1.  Did you spell it correctly?
+2.  If it is a third-party library, do you need to run `pip install blah`, or `pip3 install blah` first?
+3.  If it is a library that you wrote yourself, is the file `blah.py` in the current directory?
