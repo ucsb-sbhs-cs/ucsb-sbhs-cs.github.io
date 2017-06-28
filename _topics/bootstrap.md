@@ -40,3 +40,38 @@ To load the JavaScript part of Bootstrap, put this at the very bottom of the `<b
 The links above were copied from this site, which may have more update to date versions: <https://www.bootstrapcdn.com/>
 
 If you are wondering what the `integrity` and `crossorigin` attributes do, you can [read more here](https://stackoverflow.com/questions/32039568/what-are-the-integrity-and-crossorigin-attribute)
+
+# Common Navigation with Bootstrap
+
+One of the keys to using Bootstrap for common navigation is understanding what to put in the `<nav>` element.
+
+The `<nav>` element typically goes at the top of your `<body>` element, like this:
+
+```html
+<body>
+  <nav class="navbar navbar-default">
+  ...
+  </nav>
+...
+</body>
+```
+
+Or, if you are using Flask templates, you might factor out the `<nav>` element into its own file, like this:
+
+
+```html
+<body>
+   {% include 'navbar.html' %}
+   ...
+</body>
+```
+
+In that case, the `navbar.html` would be included in the same `templates` directory as your other templates.
+
+An example of a nav element can be seen in this file:
+
+* https://github.com/ucsb-sbhs-cs/webapps-flask-bootstrap-demo1/blob/master/templates/navbar.html
+
+Documentation about what goes in a `<nav>` element can be found here:
+
+* <https://v4-alpha.getbootstrap.com/components/navbar/>
