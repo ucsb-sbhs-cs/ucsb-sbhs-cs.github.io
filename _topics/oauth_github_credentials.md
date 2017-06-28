@@ -1,6 +1,7 @@
 ---
 topic: "OAuth: Github Credentials"
 desc: "Creating the GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET values"
+indent: true
 ---
 
 To create the values for `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`:
