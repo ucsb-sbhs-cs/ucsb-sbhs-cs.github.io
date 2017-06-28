@@ -61,7 +61,7 @@ Or, if you are using Flask templates, you might factor out the `<nav>` element i
 
 ```html
 <body>
-   {% include 'navbar.html' %}
+   {% raw %}{% include 'navbar.html' %}{% endraw %}
    ...
 </body>
 ```
