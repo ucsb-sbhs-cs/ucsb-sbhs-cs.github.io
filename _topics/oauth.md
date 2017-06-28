@@ -111,6 +111,8 @@ Each of the repos below requires a bit more explanation---the code won't just "r
 
 Here are the code examples:
 
+TODO: Update these links to repos
+
 * Simple github oauth: <https://github.com/ucsb-sbhs-cs/webapps-oauth-example>
     * If you have a github account, you can log in.
     * This app only works with sessions; no connection to a database
@@ -121,6 +123,9 @@ Here are the code examples:
       by the application (e.g. `ucsb-sbhs-cs`, for example.)
     * Like preceding one, this app only works with sessions; no connection to a database
     * No ability to store user preferences, or any other persistent data
+* Github OAuth along with MongoDB access: <https://github.com/ucsb-sbhs-cs/webapps-oauth-and-pymongo-v1>
+    * Similar to webapps-oauth-github-org-example, but also includes example of accessing a MongoDB database
+
 
 # Using Flask-OAuthlib
 
