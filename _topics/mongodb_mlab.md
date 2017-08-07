@@ -116,7 +116,11 @@ Then, create a user.  This user is not a human user, but rather a "machine user"
 It is best to not create this until you are ready to type the password into the env.sh file, or the Heroku form for environment variables, because once you type in the
 password, you can't see it anymore.     So the best way to go about this is: (1) create the env.sh file or bring up the Heroku form, (2) type in a username such as `dbuser1` and as password that is random characters such as `weaf8jawel8f8waefjawe8fjlaw8fhalwifhaw3`, then copy paste that password (not literally the one on this web page) into the mlab user creation form.
 
+# Sample Code
 
+There is sample Python code for accessing an mlab database (disconnected from any webapp) in this repo:
+
+<https://github.com/ucsb-sbhs-cs/mlab_demo>
 
 # References
 
