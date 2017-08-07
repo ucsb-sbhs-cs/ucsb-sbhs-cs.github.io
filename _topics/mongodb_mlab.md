@@ -1,6 +1,7 @@
 ---
 topic: "MongoDB: MLab"
 desc: "A cloud service for hosting MongoDB databases"
+indent: true
 prereqs:
    - MongoDB
    - JSON
