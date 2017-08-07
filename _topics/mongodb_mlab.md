@@ -66,6 +66,15 @@ Flask-PyMongo==0.4.1
 pymongo==3.3.0
 ```
 
+# Getting Started
+
+You'll first need to create an Mlab account.
+
+Go to mlab.com and create an account there.
+
+
+
+
 # References
 
 * <http://blog.dwyer.co.za/2013/10/a-basic-web-app-using-flask-and-mongodb.html>
