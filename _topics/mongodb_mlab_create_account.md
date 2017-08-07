@@ -1,6 +1,7 @@
 ---
 topic: "MongoDB: Creating Your Mlab Account"
 desc: "Signing up for an MLab account is trickier that you might think "
+indent: true
 prereqs:
    - MongoDB
    - MLab
