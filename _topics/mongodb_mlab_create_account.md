@@ -10,3 +10,5 @@ You are probably very used to the process of signing up for an account for some 
 
 Signing up for MLab is a little tricky, so please read this first.
 
+![signup form](mlab_signup.png)
+
