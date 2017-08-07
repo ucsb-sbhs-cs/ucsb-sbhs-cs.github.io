@@ -71,12 +71,25 @@ pymongo==3.3.0
 
 You'll first need to create an Mlab account.
 
+## Creating a Database (MongoDB Deployment)
+
 1.  Go to mlab.com and create an account there.
 2.  Then, to create a new database, click where it says MongoDB Deployment, Create New
 3.  You then have to choose a provider and a plan.  Choose a plan that is "free" (e.g. right now, that's the Sandbox plan.)  (As of right now, it appears that it doesn't matter whether you choose Amazon, Google, or Microsoft as the cloud provider, so choose any one you like, but the directions below assume that you stuck with the default, which is Amazon.)
 4.  When you click on "Continue", you'll be asked to choose a region.  Choose US-East, and click continue.
 5.  You are then asked to choose a database name.  Choose something that make sense for your application.  For example, if your database is storing information about cars, call it `carsdb` or just `cars`.   If you don't have an application in mind, you can just use `testdb`.  Then click continue.
 6.  Then review the details and "submit order".
+
+## Using your MongoDB Deployment (database)
+
+From the home screen of Mlab, you should see your database listed.  Click on its name to bring up some more options of things you can do with it.
+
+These include:
+
+* Adding a collection
+* Adding a user
+
+The first thing you'll want to do is to add at least one collection.    For simple applications, you will likely not need more than one collection.   The thing in a collection are "documents", which is the MongoDB terminology for a single JSON object.
 
 
 
