@@ -7,7 +7,7 @@ prereqs:
 
 Github offers a simple way to publish websites called "github pages".  
 
-There are some limitations of github pages, but for simple pages involving only basic HTML, or HTML/CSS/JavaScript, it is an easy way to get started and get your content on the web.
+There are some limitations of github pages, but for simple pages involving only basic HTML, or HTML/CSS/JavaScript, it is a good way to get started and get your content on the web.
 
 Here are the basic instructions for getting a simple web page online with github pages.   After this overview, there is more detail about each step.
 
