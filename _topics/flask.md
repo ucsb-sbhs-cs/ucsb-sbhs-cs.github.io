@@ -23,3 +23,5 @@ We chose Flask because:
 # References
 
 * Main Flask Website: <http://flask.pocoo.org/>
+* [Flask vs Django: Why Flask Might Be Better?]{https://www.codementor.io/garethdwyer/flask-vs-django-why-flask-might-be-better-4xs7mdf8v#wait-why-do-i-need-a-web-framework-and-what-is-it-anyway}
+* Flask Tutorial From TutorialsPoint: <https://www.tutorialspoint.com/flask/index.htm>
