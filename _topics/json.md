@@ -9,5 +9,52 @@ But, it's usage is much broader than that.  It is actually a convenient format f
 
 # Examples
 
-It's probably best to start with some examples.   Here is an example of some JSON data:
+It's probably best to start with some examples.   Here is an example of some JSON data.    This JSON data represents one car,
+and comes from the Cars database that is part of the CORGIS dataset.
 
+First, here's the whole thing.  Then, we'll break it down a bit.
+
+```json
+{
+    "Engine Information": {
+      "Transmission": "6 Speed Automatic Select Shift", 
+      "Engine Type": "Audi 3.2L 6 cylinder 250hp 236ft-lbs", 
+      "Engine Statistics": {
+        "Horsepower": 250, 
+        "Torque": 236
+      }, 
+      "Hybrid": false, 
+      "Number of Forward Gears": 6, 
+      "Driveline": "All-wheel drive"
+    }, 
+    "Identification": {
+      "Make": "Audi", 
+      "Model Year": "2009 Audi A3", 
+      "ID": "2009 Audi A3 3.2", 
+      "Classification": "Automatic transmission", 
+      "Year": 2009
+    }, 
+    "Dimensions": {
+      "Width": 202, 
+      "Length": 143, 
+      "Height": 140
+    }, 
+    "Fuel Information": {
+      "Highway mpg": 25, 
+      "City mph": 18, 
+      "Fuel Type": "Gasoline"
+    }
+  }
+```
+
+Let's break this down a bit.   First, let's concentrate on just these lines:
+
+```
+    "Engine Information": {
+      "Transmission": "6 Speed Automatic Select Shift", 
+      "Engine Type": "Audi 3.2L 6 cylinder 250hp 236ft-lbs", 
+      "Engine Statistics": {
+        "Horsepower": 250, 
+        "Torque": 236
+      }, 
+```
