@@ -47,9 +47,9 @@ First, here's the whole thing.  Then, we'll break it down a bit.
   }
 {% endhighlight %}
 
-Let's break this down a bit.   First, let's concentrate on just these lines:
+Let's break this down a bit.   First, let's concentrate on just  lines 2-8:
 
-```
+{% highlight json linenos %}
     "Engine Information": {
       "Transmission": "6 Speed Automatic Select Shift", 
       "Engine Type": "Audi 3.2L 6 cylinder 250hp 236ft-lbs", 
@@ -57,4 +57,4 @@ Let's break this down a bit.   First, let's concentrate on just these lines:
         "Horsepower": 250, 
         "Torque": 236
       }, 
-```
+{% endhighlight %}
