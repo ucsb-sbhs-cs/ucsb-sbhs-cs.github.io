@@ -9,10 +9,34 @@ But, it's usage is much broader than that.  It is actually a convenient format f
 
 # Examples
 
-It's probably best to start with some examples.   Here is an example of some JSON data.    This JSON data represents one car,
-and comes from the Cars database that is part of the CORGIS dataset.
+It's probably best to start with some examples.   Here is an example of some JSON data.    This JSON data represents the dimensions of a single car taken from the Cars dataset from the CORGIS collection of datasets.
 
-First, here's the whole thing.  Then, we'll break it down a bit.
+{% highlight json linenos %}
+ {
+      "Width": 202, 
+      "Length": 143, 
+      "Height": 140
+ }
+{% endhighlight %}
+
+This JSON object has three key/value pairs.  That makes it similar to a Python Dictionary.  In fact, if this JSON data is stored in a file called car_dimensions.json, we can read it into a Python dictionary with this code (taken from a [Stack Overflow post](https://stackoverflow.com/questions/2835559/parsing-values-from-a-json-file):
+
+{% highlight python linenos %}
+import json
+from pprint import pprint
+
+with open('car_dimensions.json') as data_file:    
+    data = json.load(data_file)
+
+pprint(data)
+{% endhighlight %}
+
+Here's what that would look like:
+
+```
+```
+
+A larger json data file might contain much more data about a single car.  Here is some JSON data for a car.  Note that the JSON object we dealt with before appears inside of this one.  You can nest one JSON object inside another, the same way that Python dictionaries can be nested one inside the other.
 
 {% highlight json linenos %}
 {
@@ -47,14 +71,22 @@ First, here's the whole thing.  Then, we'll break it down a bit.
   }
 {% endhighlight %}
 
-Let's break this down a bit.   First, let's concentrate on just  lines 2-8:
+Let's break this down a bit.  This entire sequence is a single JSON object, which in Python terms, corresponds to a dictionary.  It has a sequence of keys and values.
+
+First, let's identify the keys in this dictionary.  They are:
+
+  * `"Engine Information"`
+  * `"Identification"`
+  * `"Dimensions"`
+  * `"Fuel Information"`
+
+Next, let's concentrate on just these lines.  What we see is that the key `"Dimensions"` is associated with a value, that is the entire JSON object we considerered earlier.
 
 {% highlight json linenos %}
-    "Engine Information": {
-      "Transmission": "6 Speed Automatic Select Shift", 
-      "Engine Type": "Audi 3.2L 6 cylinder 250hp 236ft-lbs", 
-      "Engine Statistics": {
-        "Horsepower": 250, 
-        "Torque": 236
-      }, 
+  "Dimensions": {
+      "Width": 202, 
+      "Length": 143, 
+      "Height": 140
+    }, 
 {% endhighlight %}
+
