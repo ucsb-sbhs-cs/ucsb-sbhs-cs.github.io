@@ -14,7 +14,7 @@ and comes from the Cars database that is part of the CORGIS dataset.
 
 First, here's the whole thing.  Then, we'll break it down a bit.
 
-```json
+{% highlight json linenos %}
 {
     "Engine Information": {
       "Transmission": "6 Speed Automatic Select Shift", 
@@ -45,7 +45,7 @@ First, here's the whole thing.  Then, we'll break it down a bit.
       "Fuel Type": "Gasoline"
     }
   }
-```
+{% endhighlight %}
 
 Let's break this down a bit.   First, let's concentrate on just these lines:
 
