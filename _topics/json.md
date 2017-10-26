@@ -9,6 +9,9 @@ But, it's usage is much broader than that.  It is actually a convenient format f
 
 # Examples
 
+<b>TODO: Yuki, please replace these examples with some simple ones based on the <https://world.openfoodfacts.org> API.
+It is ok to simplify the examples, i.e. you don't have to use the full exact complicated syntax of an actual record from that API.  You could simply, for example, by having only 3 nutrients instead of 30.   The idea is to show how JSON works, while keeping the examples simple, but also authentic.</b>
+
 It's probably best to start with some examples.   Here is an example of some JSON data.    This JSON data represents the dimensions of a single car taken from the Cars dataset from the CORGIS collection of datasets.
 
 {% highlight json linenos %}
