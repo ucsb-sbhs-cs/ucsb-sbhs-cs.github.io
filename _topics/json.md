@@ -3,35 +3,41 @@ topic: "JSON"
 desc: "JavaScript Object Notation--a way of representing data (not just in JavaScript but across many languages)"
 ---
 
-JSON (prounounced "jay-sahn") stands for "JavaScript Object Notation".   And, sure enough, JSON is a notation that can be used to represent objects in the JavaScript programming language.
+JSON (prounounced "jay-sahn") stands for "JavaScript Object Notation". And, sure enough, JSON is a notation that can be used to represent objects in the JavaScript programming language.
 
-But, it's usage is much broader than that.  It is actually a convenient format for exchanging data among many kinds of computing applications, especially web and mobile applications.  It is used not only by software written in JavaScript, but also software written in Python, Ruby, Java, and many other languages.
+But, it's usage is much broader than that. It is actually a convenient format for exchanging data among many kinds of computing applications, especially web and mobile applications. It is used not only by software written in JavaScript, but also software written in Python, Ruby, Java, and many other languages.
 
 # Examples
 
 <b>TODO: Yuki, please replace these examples with some simple ones based on the <https://world.openfoodfacts.org> API.
 It is ok to simplify the examples, i.e. you don't have to use the full exact complicated syntax of an actual record from that API.  You could simply, for example, by having only 3 nutrients instead of 30.   The idea is to show how JSON works, while keeping the examples simple, but also authentic.</b>
 
-It's probably best to start with some examples.   Here is an example of some JSON data.    This JSON data represents the dimensions of a single car taken from the Cars dataset from the CORGIS collection of datasets.
+Resource: 
+- ProgrammableWeb: <https://www.programmableweb.com/api/open-food-facts>
+- Open Food Facts: <https://world.openfoodfacts.org/product/4890008100309/coca-cola-coke>
+- JSON Data: <https://world.openfoodfacts.org/api/v0/product/4890008100309.json>
+
+It's probably best to start with some examples. Here is an example of some JSON data. This JSON data repsents the nutriments of a single soft drink (for this case, Coca Cola Coke) taken from the "Open Food Facts" dataset from the "ProgrammableWeb" collection of datasets. 
 
 {% highlight json linenos %}
  {
-      "Width": 202, 
-      "Length": 143, 
-      "Height": 140
+      "Salt": "0.01016", 
+      "Sugars": "10.6", 
+      "Sodium": "0.004"
  }
 {% endhighlight %}
 
-This JSON object has three key/value pairs.  That makes it similar to a Python Dictionary.  In fact, if this JSON data is stored in a file called car_dimensions.json, we can read it into a Python dictionary with this code (taken from a [Stack Overflow post](https://stackoverflow.com/questions/2835559/parsing-values-from-a-json-file):
+This JSON object has three key/value pairs. That makes it similar to a Python Dictionary. In fact, if this JSON is stored in an API on the web, we can read it into a Python dictionary with this code:  
 
 {% highlight python linenos %}
 import json
+import request
 from pprint import pprint
 
-with open('car_dimensions.json') as data_file:    
-    data = json.load(data_file)
+cola_json = requests.get(https://world.openfoodfacts.org/api/v0/product/4890008100309.json)
+cola_data = cola_url.json()
 
-pprint(data)
+pprint(cola_data)
 {% endhighlight %}
 
 Here's what that would look like:
