@@ -40,12 +40,52 @@ cola_data = cola_url.json()
 pprint(cola_data)
 {% endhighlight %}
 
-Here's what that would look like:
+Since the data contains lots of information about the soft drink, only a snippet of the data is shown. Here's what that would look like:
 
 ```
+{u'code': u'4890008100309',
+ u'product': {u'_id': u'4890008100309',
+              u'_keywords': [u'cola', u'coca', u'coke'],
+              u'additives_debug_tags': [],
+              u'additives_old_tags': [],
+              u'additives_original_tags': [],
+              u'additives_prev_original_tags': [],
+              u'additives_prev_tags': [],
+              u'additives_tags': [],
+              u'allergens': u'',
+              u'allergens_hierarchy': [],
+              u'allergens_tags': [],
+              u'brands': u'Coca Cola',
+              u'brands_tags': [u'coca-cola'],
+              u'categories': u'Colas',
+              u'categories_debug_tags': [],
+              u'categories_hierarchy': [u'en:beverages',
+                                        u'en:carbonated-drinks',
+                                        u'en:sodas',
+                                        u'en:colas',
+                                        u'en:sugared-beverages'],
+              u'categories_prev_hierarchy': [u'en:beverages',
+                                             u'en:carbonated-drinks',
+                                             u'en:sodas',
+                                             u'en:colas'],
+              u'categories_prev_tags': [u'en:beverages',
+                                        u'en:carbonated-drinks',
+                                        u'en:sodas',
+                                        u'en:colas'],
+              u'categories_tags': [u'en:beverages',
+                                   u'en:carbonated-drinks',
+                                   u'en:sodas',
+                                   u'en:colas',
+                                   u'en:sugared-beverages'],
+    ...
+    ...
+    ...
 ```
 
-A larger json data file might contain much more data about a single car.  Here is some JSON data for a car.  Note that the JSON object we dealt with before appears inside of this one.  You can nest one JSON object inside another, the same way that Python dictionaries can be nested one inside the other.
+As we can see the JSON data above, you can nest one JSON object inside another, the same way that Python dictionaries can be nested one inside the other. Note that the JSON object we dealt with before appears inside of this one. 
+(Note: Some parts of the data is cutted out, so we can see the data more clearly.) 
+
+<b> --------------T.B.C. -------------- </b>
 
 {% highlight json linenos %}
 {
