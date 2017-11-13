@@ -88,7 +88,7 @@ For more details about the difference between unicode and string: <https://stack
 As we can see the JSON data above, you can nest one JSON object inside another, the same way that Python dictionaries can be nested one inside the other. Notice that the JSON object we dealt with before appears inside of this one. 
 (Note: Some parts of the data is cutted out, so we can see the data more clearly.) 
 
-{% highlight json linenos %}
+```
 {u'code': u'4890008100309',
  u'product': {u'_id': u'4890008100309',
              ...
@@ -101,7 +101,7 @@ As we can see the JSON data above, you can nest one JSON object inside another, 
             ... },
  u'status': 1,
  u'status_verbose': u'product found'}
-{% endhighlight %}
+```
 
 Let's break this down a bit.  This entire sequence is a single JSON object, which in Python terms, corresponds to a dictionary.  It has a sequence of keys and values.
 
@@ -114,7 +114,7 @@ First, let's identify the keys in this dictionary.  They are:
 
 Next, let's concentrate on just these lines.  What we see is that the key `u'product'` is associated with a value as a big dictionary. In this nested dictionary, we see that one of the keys `u'nutriments'` is associated with a value as another dictionary, that is the JSON object we considerered earlier.
 
-{% highlight json linenos %}
+```
    u'product': {u'_id': u'4890008100309',
              ...
              ...
@@ -124,5 +124,5 @@ Next, let's concentrate on just these lines.  What we see is that the key `u'pro
                             },
             ...
             ... },
-{% endhighlight %}
+```
 
