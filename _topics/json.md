@@ -21,9 +21,9 @@ It's probably best to start with some examples. Here is an example of some JSON 
 
 {% highlight json linenos %}
  {
-      "Salt": "0.01016", 
-      "Sugars": "10.6", 
+      "Salt": "0.01016",
       "Sodium": "0.004"
+      "Sugars": "10.6", 
  }
 {% endhighlight %}
 
@@ -82,60 +82,47 @@ Since the data contains lots of information about the soft drink, only a snippet
     ...
 ```
 
-As we can see the JSON data above, you can nest one JSON object inside another, the same way that Python dictionaries can be nested one inside the other. Note that the JSON object we dealt with before appears inside of this one. 
+You may have already noticed the "u" in front of every string. Those are actually a <i>unicode</i> type. For the purpose of this lesson, all you need to know is that unicode is another representation of some text (just like a string). 
+For more details about the difference between unicode and string: <https://stackoverflow.com/questions/18034272/python-str-vs-unicode-types>
+
+As we can see the JSON data above, you can nest one JSON object inside another, the same way that Python dictionaries can be nested one inside the other. Notice that the JSON object we dealt with before appears inside of this one. 
 (Note: Some parts of the data is cutted out, so we can see the data more clearly.) 
 
-<b> --------------T.B.C. -------------- </b>
-
 {% highlight json linenos %}
-{
-    "Engine Information": {
-      "Transmission": "6 Speed Automatic Select Shift", 
-      "Engine Type": "Audi 3.2L 6 cylinder 250hp 236ft-lbs", 
-      "Engine Statistics": {
-        "Horsepower": 250, 
-        "Torque": 236
-      }, 
-      "Hybrid": false, 
-      "Number of Forward Gears": 6, 
-      "Driveline": "All-wheel drive"
-    }, 
-    "Identification": {
-      "Make": "Audi", 
-      "Model Year": "2009 Audi A3", 
-      "ID": "2009 Audi A3 3.2", 
-      "Classification": "Automatic transmission", 
-      "Year": 2009
-    }, 
-    "Dimensions": {
-      "Width": 202, 
-      "Length": 143, 
-      "Height": 140
-    }, 
-    "Fuel Information": {
-      "Highway mpg": 25, 
-      "City mph": 18, 
-      "Fuel Type": "Gasoline"
-    }
-  }
+{u'code': u'4890008100309',
+ u'product': {u'_id': u'4890008100309',
+             ...
+             ...
+             u'nutriments': { u'salt': u'0.01016',
+                              u'sodium': u'0.004',
+                              u'sugars': u'10.6',
+                            },
+            ...
+            ... },
+ u'status': 1,
+ u'status_verbose': u'product found'}
 {% endhighlight %}
 
 Let's break this down a bit.  This entire sequence is a single JSON object, which in Python terms, corresponds to a dictionary.  It has a sequence of keys and values.
 
 First, let's identify the keys in this dictionary.  They are:
 
-  * `"Engine Information"`
-  * `"Identification"`
-  * `"Dimensions"`
-  * `"Fuel Information"`
+  * `u'code'`
+  * `u'product'`
+  * `u'status'`
+  * `u'status_verbose'`
 
-Next, let's concentrate on just these lines.  What we see is that the key `"Dimensions"` is associated with a value, that is the entire JSON object we considerered earlier.
+Next, let's concentrate on just these lines.  What we see is that the key `u'product'` is associated with a value as a big dictionary. In this nested dictionary, we see that one of the keys `u'nutriments'` is associated with a value as another dictionary, that is the JSON object we considerered earlier.
 
 {% highlight json linenos %}
-  "Dimensions": {
-      "Width": 202, 
-      "Length": 143, 
-      "Height": 140
-    }, 
+   u'product': {u'_id': u'4890008100309',
+             ...
+             ...
+             u'nutriments': { u'salt': u'0.01016',
+                              u'sodium': u'0.004',
+                              u'sugars': u'10.6',
+                            },
+            ...
+            ... },
 {% endhighlight %}
 
