@@ -9,9 +9,6 @@ But, it's usage is much broader than that. It is actually a convenient format fo
 
 # Examples
 
-<b>TODO: Yuki, please replace these examples with some simple ones based on the <https://world.openfoodfacts.org> API.
-It is ok to simplify the examples, i.e. you don't have to use the full exact complicated syntax of an actual record from that API.  You could simply, for example, by having only 3 nutrients instead of 30.   The idea is to show how JSON works, while keeping the examples simple, but also authentic.</b>
-
 Resource: 
 - ProgrammableWeb: <https://www.programmableweb.com/api/open-food-facts>
 - Open Food Facts: <https://world.openfoodfacts.org/product/4890008100309/coca-cola-coke>
