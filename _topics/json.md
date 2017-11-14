@@ -109,7 +109,7 @@ First, let's identify the keys in this dictionary.  They are:
   * `u'status'`
   * `u'status_verbose'`
 
-Next, let's concentrate on just these lines.  What we see is that the key `u'product'` is associated with a value as a big dictionary. In this nested dictionary, we see that one of the keys `u'nutriments'` is associated with a value as another dictionary, that is the JSON object we considerered earlier.
+Next, let's concentrate on just these lines.  What we see is that the key `u'product'` is associated with a value as a big dictionary. In this nested dictionary, we see that one of the keys `u'nutriments'` is associated with a value as another dictionary, that is the JSON object we considered earlier.
 
 ```
    u'product': {u'_id': u'4890008100309',
