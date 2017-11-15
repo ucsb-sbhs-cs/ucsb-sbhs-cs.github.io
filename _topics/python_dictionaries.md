@@ -249,10 +249,12 @@ Line 1 is simply declaring an array called `list_of_data` containing all 5 soft 
 Line 2 is declaring a dictionary called `list_of_UPC_number`. 
 Line 3 is calling a for loop which iterates each `items` (in this case, soft drink) in `array_of_data`. 
 
-Line 4 may look weird at first, but it is not. It is easy to understand if you can see how this line is structure first. We know that `list_of_UPC_number` is a dictionary since we declared it as a dictionary. If you remember correctly, one way to assign a key/value pair into the dictionary is: list_of_UPC_number[`key`] = `value`. 
+Line 4 may look weird at first, but it is not. It is easy to understand if you can see how this line is structure first. We know that `list_of_UPC_number` is a dictionary since we declared it as a dictionary. If you remember correctly, one way to assign a key/value pair into the dictionary is: list_of_UPC_number[`key`] = `value`.
+
 As we mentioned already, `items` are the elements in `array_of_data`; hence, `items` are the JSON data of the soft drinks that are structured in a Python dictionary. With this knowledge, you may now know how this line works. 
 `items[u'code']` is a value in the dictionary with `u'code'` as the key, which is the UPC number. 
 `items[u'product'][u'product_name']` is calling out a value in a dictionary within a dictionary.  `items` is a dictionary with one of its key `u'product'` that is paired with a value as a dictionary. Now, `u'product'` is a dictionary with one of its key `u'product_name'` that is paired with a value as the product name (or the name of the soft drink). 
+
 Therefore, we can see that `list_of_UPC_number[items[u'code']] = items[u'product'][u'product_name']` is only assigning a key/value pair into the dictionary with the key as the UPC number of the soft drink and the value as the name of the same soft drink. 
 
 Line 5 prints out the dictionary with the corresponding key and value pair. 
