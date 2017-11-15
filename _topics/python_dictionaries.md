@@ -227,13 +227,11 @@ Assume that 'cola_data', 'pepsi_data', 'sprite_data', 'fanta_data', 'dr_pepper_d
 
 Let's try to create a Python Dictionary only consisting of the item's UPC number as the key and the item's product name as the value, which what this code does:
 
-{% highlight Python linenos %} 
-{ 
+{% highlight Python linenos %}
   list_of_UPC_number = [cola_data, sprite_data, fanta_data, dr._pepper_data]
   for items in list_of_data:
     list_of_UPC_number[items[u'code']] = items[u'product'][u'product_name'])  
   print json.dumps(list_of_UPC_number)    #prints without 'u' character showing at the front
-} 
 {% endhighlight %}
 
 This is what the above code prints out:
@@ -241,7 +239,7 @@ This is what the above code prints out:
 {"8847100560094": "Fanta Orange", "5449000014535": "Sprite", "4890008100309": "Coca Cola Coke", "8435185944009": "Dr Pepper", "4060800100252": "Pepsi"}
 ```
 
-
+Let's discuss the code line by line. 
 
 
  
