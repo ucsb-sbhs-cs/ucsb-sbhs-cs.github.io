@@ -215,15 +215,29 @@ Both links are describing the same item, but written in different ways. You can 
 (TODO: Yuki, can you put some information here from the <https:/world.openfoodfacts.org> api ? )
 # Applying Python Dictionaries with Real JSON Data
 
-Data in JSON format can be easily converted into a Python dictionary. For our example, we will use five different soft drink from the Open Food Facts API. The JSON for these five soft drinks are: 
-1. Coca Cola Coke <https://world.openfoodfacts.org/api/v0/product/4890008100309.json> 
-2. Pepsi <https://world.openfoodfacts.org/api/v0/product/4060800100252.json>
-3. Sprite <https://world.openfoodfacts.org/api/v0/product/5449000014535.json>
-4. Fanta Orange <https://world.openfoodfacts.org/api/v0/product/8847100560094.json>
-5. Dr. Peper <https://world.openfoodfacts.org/api/v0/product/8435185944009.json>
+Data in JSON format can be easily converted into a Python dictionary. For our example, we will use five different soft drink from the Open Food Facts API. The JSON for these five soft drinks are: [Coca Cola Coke](https://world.openfoodfacts.org/api/v0/product/4890008100309.json), [Pepsi](https://world.openfoodfacts.org/api/v0/product/4060800100252.json), [Sprite](https://world.openfoodfacts.org/api/v0/product/5449000014535.json), [Fanta Orange](https://world.openfoodfacts.org/api/v0/product/8847100560094.json), [Dr. Peper](https://world.openfoodfacts.org/api/v0/product/8435185944009.json).
 
-To learn how to extract JSON data from the web into a Python dictionary. Check out this link: [Python:JSON](https://ucsb-sbhs-cs.github.io/topics/json/) 
+To learn how to extract JSON data from the web into a Python dictionary, check out this link: [Python:JSON](https://ucsb-sbhs-cs.github.io/topics/json/) 
+
+As you may have noticed looking at the JSON data, each soft drink has 4 main keys: "code", "product", "status_verbose", and "status". However, we do not want to see all of these big data everytime you access these items. Hence, we can easily create a new Python dictionaries consisting of information that we really care about. 
+
+As you may have learned already, the key and the value for Python Dictionary can be any type of variable. In our case, the keys are `unicode` type. The values are also `unicode ` type, but for the key 'product' has the value as a dictionary consisting more keys whose each has its own value (which can still be a single data value, an array, or a dictionary). This example of a dictionary within a dictionary is called a <i>nested dictionary</i>. 
+
+Assume that 'cola_data', 'pepsi_data', 'sprite_data', 'fanta_data', 'dr_pepper_data' are all dictionaries that have been extracted from the JSON data in Open Food Facts API, and the code will have an array for
+
+Let's try to create a Python Dictionary only consisting of the item's UPC number as the key and the item's product name as the value, which what this code does:
+
+{% highlight Python linenos %} 
+{ list_of_UPC_number = [cola_data, sprite_data, fanta_data, dr._pepper_data]
+for item in list_of_data:
+    list_of_UPC_number[keys], item[u'code'])
+print "The list of UPC numbers are : "
+print json.dumps(list_of_UPC_number)    #prints without 'u' character showing at the front
+print ('\n') } 
+{% endhighlight %}
 
 
-That topic is explored on another page: [Python: JSON](/topics/python_JSON/)
+
+ 
+
 
