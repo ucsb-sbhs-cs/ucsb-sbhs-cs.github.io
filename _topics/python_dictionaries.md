@@ -227,13 +227,11 @@ Assume that 'cola_data', 'pepsi_data', 'sprite_data', 'fanta_data', 'dr_pepper_d
 
 Let's try to create a Python Dictionary only consisting of the item's UPC number as the key and the item's product name as the value, which what this code does:
 
-{% highlight Python linenos %}
-  array_of_data = [cola_data, sprite_data, fanta_data, dr._pepper_data]
+{% highlight Python linenos %}array_of_data = [cola_data, sprite_data, fanta_data, dr._pepper_data]
   list_of_UPC_number = {}
   for items in list_of_data:
     list_of_UPC_number[items[u'code']] = items[u'product'][u'product_name']  
-  pprint(list_of_UPC_number) 
-{% endhighlight %}
+  pprint(list_of_UPC_number){% endhighlight %}
 
 This is what the above code prints out:
 ```
