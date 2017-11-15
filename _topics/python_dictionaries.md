@@ -206,9 +206,24 @@ comes from the language *JavaScript*, it is used across many languages other tha
 
 Many websites and other data services provide access to data in JSON format.  
 
-(TODO: Yuki, can you put some information here from the <https:/world.openfoodfacts.org> api ? )
+For example, check out the links provided below. 
+The first link is a data about Coca Cola Coke: <https://world.openfoodfacts.org/product/4890008100309/coca-cola-coke>
+The second link is a JSON format of the first link: <https://world.openfoodfacts.org/api/v0/product/4890008100309.json>
 
-Data in JSON format can be easily converted into a Python dictionary.
+Both links are describing the same item, but written in different ways. You can confirm that it is the same item by looking at the UPC number. In this case, it is '4890008100309'. 
+
+(TODO: Yuki, can you put some information here from the <https:/world.openfoodfacts.org> api ? )
+# Applying Python Dictionaries with Real JSON Data
+
+Data in JSON format can be easily converted into a Python dictionary. For our example, we will use five different soft drink from the Open Food Facts API. The JSON for these five soft drinks are: 
+1. Coca Cola Coke <https://world.openfoodfacts.org/api/v0/product/4890008100309.json> 
+2. Pepsi <https://world.openfoodfacts.org/api/v0/product/4060800100252.json>
+3. Sprite <https://world.openfoodfacts.org/api/v0/product/5449000014535.json>
+4. Fanta Orange <https://world.openfoodfacts.org/api/v0/product/8847100560094.json>
+5. Dr. Peper <https://world.openfoodfacts.org/api/v0/product/8435185944009.json>
+
+To learn how to extract JSON data from the web into a Python dictionary. Check out this link: [Python:JSON](https://ucsb-sbhs-cs.github.io/topics/json/) 
+
 
 That topic is explored on another page: [Python: JSON](/topics/python_JSON/)
 
