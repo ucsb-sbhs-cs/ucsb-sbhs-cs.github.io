@@ -31,7 +31,7 @@ import json
 import request
 from pprint import pprint
 
-cola_json = requests.get(https://world.openfoodfacts.org/api/v0/product/4890008100309.json)
+cola_json = requests.get("https://world.openfoodfacts.org/api/v0/product/4890008100309.json")
 cola_data = cola_url.json()
 
 pprint(cola_data)
