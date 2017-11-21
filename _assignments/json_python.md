@@ -99,4 +99,26 @@ For example, Google Chrome has an extension called "JSON formatter". By having t
      ...
 ```
 
+Now that you can easily read the JSON data on the web, we can finally move along to the next step!
+
+# Step 3: Getting the JSON Data
+
+In order to get any information from the web, you will need to have the `Requests` library installed in your computer. 
+
+You can follow the instruction on this site to install the `Requests` Library: [Using the Requests Library in Python](http://www.pythonforbeginners.com/requests/using-requests-in-python).
+
+Once installed, you can now start writing your code. 
+
+Remember the URL address that we used in <b>Step 2</b>? We will be using URL that displays the product's JSON data. In the above example, it was this: <https://world.openfoodfacts.org/api/v0/product/0894700010045.json>. 
+
+First, you will want to import the `Requests` Library in your code. By importing the `Requests` Library, you are now allowed to use any functionality in this library. For the purpose of this exercise, we will only be using the `get()` method, which gets the website by passing in a URL string as a parameter. Hence, your code should start off like this: 
+
+
+
+
+
+For this step, you may find it helpful to look over [Python Dictionaries](https://ucsb-sbhs-cs.github.io/topics/python_dictionaries).
+
+
+
 
