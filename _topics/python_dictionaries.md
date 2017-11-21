@@ -212,7 +212,7 @@ The second link is a JSON format of the first link: <https://world.openfoodfacts
 
 Both links are describing the same item, but written in different ways. You can confirm that it is the same item by looking at the UPC number. In this case, it is '4890008100309'. 
 
-(TODO: Yuki, can you put some information here from the <https:/world.openfoodfacts.org> api ? )
+
 # Applying Python Dictionaries with Real JSON Data
 
 Data in JSON format can be easily converted into a Python dictionary. For our example, we will use five different soft drink from the Open Food Facts API. The JSON for these five soft drinks are: [Coca Cola Coke](https://world.openfoodfacts.org/api/v0/product/4890008100309.json), [Pepsi](https://world.openfoodfacts.org/api/v0/product/4060800100252.json), [Sprite](https://world.openfoodfacts.org/api/v0/product/5449000014535.json), [Fanta Orange](https://world.openfoodfacts.org/api/v0/product/8847100560094.json), [Dr. Peper](https://world.openfoodfacts.org/api/v0/product/8435185944009.json).
