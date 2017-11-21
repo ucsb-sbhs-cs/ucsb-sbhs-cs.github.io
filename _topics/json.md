@@ -40,7 +40,7 @@ pprint(cola_data)
 
 Since the data contains lots of information about the soft drink, only a snippet of the data is shown&mdash;a full listing appears [at this link](cola_data_json/).  Here's what that would look like (in part):
 
-```
+```python
 {u'code': u'4890008100309',
  u'product': {u'_id': u'4890008100309',
               u'_keywords': [u'cola', u'coca', u'coke'],
