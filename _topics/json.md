@@ -84,7 +84,7 @@ You may have already noticed the "u" in front of every string. Those are actuall
 For more details about the difference between unicode and string: <https://stackoverflow.com/questions/18034272/python-str-vs-unicode-types>
 
 As we can see the JSON data above, you can nest one JSON object inside another, the same way that Python dictionaries can be nested one inside the other. Notice that the JSON object we dealt with before appears inside of this one. 
-(Note: Some parts of the data is cutted out, so we can see the data more clearly.) 
+(Note: Some parts of the data have been cut out and replaced with `...` so that we can see the overall structure of the remaining data more clearly.) 
 
 ```
 {u'code': u'4890008100309',
@@ -110,7 +110,7 @@ First, let's identify the keys in this dictionary.  They are:
   * `u'status'`
   * `u'status_verbose'`
 
-Next, let's concentrate on just these lines.  What we see is that the key `u'product'` is associated with a value as a big dictionary. In this nested dictionary, we see that one of the keys `u'nutriments'` is associated with a value as another dictionary, that is the JSON object we considered earlier.
+Next, let's concentrate on just these lines.  What we see is that the key `u'product'` is associated with a value as a big dictionary. In this nested dictionary, we see that one of the keys `u'nutriments'` is associated with a value as another dictionary&mdash;that is, the JSON object we considered earlier.
 
 ```
    u'product': {u'_id': u'4890008100309',
@@ -124,3 +124,14 @@ Next, let's concentrate on just these lines.  What we see is that the key `u'pro
             ... },
 ```
 
+# Using the JSON object to answer questions
+
+TODO: Insert a few "word problems" that can be answered using the JSON.
+
+Example: Suppose that `cola_data` represents the JSON associated with the product lookup from the sample Python code in the article above.    Write a Python expression that would answer each of these questions.
+
+1.  Q: What is the amount of sodium in one serving of this product?   
+
+    A: `cola_data[u'product'][u'nutriments'][u'sodium']`
+    
+   
