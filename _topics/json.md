@@ -38,7 +38,7 @@ cola_data = cola_json.json()
 pprint(cola_data)
 {% endhighlight %}
 
-Since the data contains lots of information about the soft drink, only a snippet of the data is shown. Here's what that would look like:
+Since the data contains lots of information about the soft drink, only a snippet of the data is shown&mdash;a full listing appears [at this link](cola_data_json/).  Here's what that would look like (in part):
 
 ```
 {u'code': u'4890008100309',
@@ -76,8 +76,6 @@ Since the data contains lots of information about the soft drink, only a snippet
                                    u'en:colas',
                                    u'en:sugared-beverages'],
     ...
-    ...
-    ...
 ```
 
 You may have already noticed the "u" in front of every string. Those are actually a <i>unicode</i> type. For the purpose of this lesson, all you need to know is that unicode is another representation of some text (just like a string). 
@@ -90,13 +88,12 @@ As we can see the JSON data above, you can nest one JSON object inside another, 
 {u'code': u'4890008100309',
  u'product': {u'_id': u'4890008100309',
              ...
-             ...
              u'nutriments': { u'salt': u'0.01016',
                               u'sodium': u'0.004',
                               u'sugars': u'10.6',
                             },
             ...
-            ... },
+            },
  u'status': 1,
  u'status_verbose': u'product found'}
 ```
@@ -128,7 +125,9 @@ Next, let's concentrate on just these lines.  What we see is that the key `u'pro
 
 TODO: Insert a few "word problems" that can be answered using the JSON.
 
-Example: Suppose that `cola_data` represents the JSON associated with the product lookup from the sample Python code in the article above.    Write a Python expression that would answer each of these questions.
+Example: Suppose that `cola_data` represents the JSON associated with the product lookup from the sample Python code in the article above.  A complete listing of that JSON appears [at this link](cola_data_json/).    
+
+Write a Python expression that would answer each of these questions.
 
 1.  Q: What is the amount of sodium in one serving of this product?   
 
