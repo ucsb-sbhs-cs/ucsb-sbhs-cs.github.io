@@ -1,7 +1,6 @@
 ---
-topic: "JSON in Python"
+name: "JSON in Python"
 desc: "Practicing with JSON in Python"
-indent: true
 ---
 
 In this programming exercise, you will be practicing how to manipulate JSON data in Python. The purpose of this exercise is for you to use real world data while practicing Python Dictionaries. 
