@@ -30,7 +30,7 @@ For example, the product that I found is "Greek Non-Fat Yogurt, Strawberry On Th
 The extra '0' in front of the UPC number is a leading zero, which is needed to format the URL and is added automatically. You do not need to worry about how the leading zero works, but now make sure you keep note on this 13 digits number. 
 
 Now you want to see the JSON format of this product's description. In order to get the JSON format, you can simply copy the format of the following URL. For this example, I will be using the UPC number of "Greek Non-Fat Yogurt, Strawberry On The Bottom - Chobani": 
-https://world.openfoodfacts.org/api/v0/product/0894700010045.json
+<https://world.openfoodfacts.org/api/v0/product/0894700010045.json>
 
 You can confirm that Open Food Facts data and the JSON format are describing the same product by checking to see if the UPC numbers are the same. 
 
