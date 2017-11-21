@@ -28,11 +28,12 @@ This JSON object has three key/value pairs. That makes it similar to a Python Di
 
 {% highlight python linenos %}
 import json
-import request
+import requests
 from pprint import pprint
 
-cola_json = requests.get("https://world.openfoodfacts.org/api/v0/product/4890008100309.json")
-cola_data = cola_url.json()
+cola_json = requests.get('https://world.openfoodfacts.org/api/v0/product/489000\
+8100309.json')
+cola_data = cola_json.json()
 
 pprint(cola_data)
 {% endhighlight %}
