@@ -1,4 +1,5 @@
 ---
+no_index: true
 ---
 
 Here is a listing of the complete `cola_data` json object after it was:
