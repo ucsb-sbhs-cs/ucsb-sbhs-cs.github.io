@@ -37,6 +37,8 @@ cola_data = cola_json.json()
 pprint(cola_data)
 {% endhighlight %}
 
+The `.json()` method return a Python dictionary object (type `dict`) that represents that same data as the JSON that was returned from url.
+
 The `pprint(cola_data)` line gives us a printout of the Python Dictionary representation of this JSON object.  That representation is very large, so we don't include here on this web page, but, you can see it [at this link](cola_data_as_python_dict/)
 
 TODO: Be careful about the distinction between JSON as a format, and Python dictionaries as a format.  They look VERY similar, but they are NOT exactly the same.
