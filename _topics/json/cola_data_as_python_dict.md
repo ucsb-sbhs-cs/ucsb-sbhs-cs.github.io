@@ -1,9 +1,14 @@
 ---
 ---
 
-Here is a listing of the complete `cola_data` json object that would be returned by the Python code in the [article about JSON](/topics/json/).
+Here is a listing of the complete `cola_data` json object after it was:
 
-{% highlight json linenos %}
+* converted to a Python dictionary
+* printed out by the `pprint` command
+
+as mentioned in the [article about JSON](/topics/json/).
+
+{% highlight python linenos %}
 
 {'code': '4890008100309',
  'product': {'_id': '4890008100309',
