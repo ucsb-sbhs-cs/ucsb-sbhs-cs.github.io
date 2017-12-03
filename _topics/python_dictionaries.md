@@ -221,9 +221,14 @@ To learn how to extract JSON data from the web into a Python dictionary, check o
 
 As you may have noticed looking at the JSON data, each soft drink has 4 main keys: "code", "product", "status_verbose", and "status". However, we do not want to see all of these big data everytime you access these items. Hence, we can easily create a new Python dictionaries consisting of information that we really care about. 
 
-As you may have learned already, the key and the value for Python Dictionary can be any type of variable. In our case, the keys are `unicode` type. The values are also `unicode ` type, but for the key 'product' has the value as a dictionary consisting more keys whose each has its own value (which can still be a single data value, an array, or a dictionary). This example of a dictionary within a dictionary is called a <i>nested dictionary</i>. 
+As you may have learned already, the key and the value for Python Dictionary can be any type of variable. In our case, the 4 main keys that we just mentioned are type `str`. The values that are paired with those keys are also type `str`, except for the value paired with the key `product`. The value for the key `product` is a dictionary consisting more key/value pairs (which can still be a single data value, an array, or another dictionary). This example of a dictionary within a dictionary is called a <i>nested dictionary</i>. 
 
-Assume that 'cola_data', 'pepsi_data', 'sprite_data', 'fanta_data', 'dr_pepper_data' are all dictionaries that have been extracted from the JSON data in Open Food Facts API, and the code will have an array for
+Assume that 'cola_data', 'pepsi_data', 'sprite_data', 'fanta_data', 'dr_pepper_data' are all dictionaries that have been extracted from the JSON data in Open Food Facts API, and the code will intially have an array consisting all of these dictioanries. 
+
+{% highlight Python linenos %}
+array_of_data = [cola_data, sprite_data, fanta_data, dr._pepper_data]
+{% endhighlight %}
+
 
 Let's try to create a Python Dictionary only consisting of the item's UPC number as the key and the item's product name as the value, which what this code does:
 
