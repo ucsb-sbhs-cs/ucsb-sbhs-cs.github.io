@@ -60,7 +60,7 @@ As you check out the provided link, since `cola_data` is a Python dictionary, yo
                             'sugars': '10.6',
                             ...
                             'sugars_value': '10.6'},
-             'unknown_nutrients_tags': [],
+             ...
              'update_key': 'nutriscore-20171111'},
  'status': 1,
  'status_verbose': 'product found'}
