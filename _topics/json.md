@@ -31,25 +31,18 @@ import json
 import requests
 from pprint import pprint
 
-cola_json = requests.get('https://world.openfoodfacts.org/api/v0/product/4890008100309.json')
+cola_json = requests.get(
+              'https://world.openfoodfacts.org/api/v0/product/4890008100309.json')
 cola_data = cola_json.json()
 
 pprint(cola_data)
 {% endhighlight %}
 
-On line 5, we create a response object `cola_json` which stores the request-response from the link `https://world.openfoodfacts.org/api/v0/product/4890008100309.json`.
+On line 5, we create a response object `cola_json` which stores the request-response from the link <https://world.openfoodfacts.org/api/v0/product/4890008100309.json>.
 
 In order to retrieve the data from the response object, we need to convert the raw response content into a JSON type data structure. This is achieved by using `.json()` method on line 6. The `.json()` method return a Python dictionary object (type `dict`) that represents that same data as the JSON that was returned from url.
 
 The `pprint(cola_data)` line gives us a printout of the Python Dictionary representation of this JSON object.  That representation is very large, so we don't include here on this web page, but, you can see it [at this link](cola_data_as_python_dict/)
-
-
----------------
-
-
-
-
-TODO: Be careful about the distinction between JSON as a format, and Python dictionaries as a format.  They look VERY similar, but they are NOT exactly the same.
 
 Since the data contains lots of information about the soft drink, only a snippet of the data is shown&mdash;a full listing appears [at this link](cola_data_json/).  Here's what that would look like (in part):
 
