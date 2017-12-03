@@ -40,7 +40,7 @@ pprint(cola_data)
 
 On line 5-6, we create a response object `cola_json` which stores the request-response from the url <https://world.openfoodfacts.org/api/v0/product/4890008100309.json>.
 
-In order to retrieve the data from the response object, we need to convert the raw response content into a JSON type data structure. This is achieved by using `.json()` method on line 7. The `.json()` method return a Python dictionary object (type `dict`) that represents that same data as the JSON that was returned from url.
+In order to retrieve the data from the response object, we need to convert the raw response content into a JSON type data structure. This is achieved by using `.json()` method on line 7. The `.json()` method returns a Python dictionary object (type `dict`) that represents that same data as the JSON that was returned from url.
 
 The `pprint(cola_data)` line gives us a printout of the Python Dictionary representation of this JSON object. That representation is very large, so we don't include here on this web page, but, you can see it [at this link](cola_data_as_python_dict/)
 
@@ -75,30 +75,54 @@ At the highest (or first) level, let's identify the keys in this dictionary.  Th
   * `'status'`
   * `'status_verbose'`
 
-Next, let's concentrate on just these lines.  What we see is that the key `u'product'` is associated with a value as a big dictionary. In this nested dictionary, we see that one of the keys `u'nutriments'` is associated with a value as another dictionary&mdash;that is, the JSON object we considered earlier.
+At the next level, let's look at the value associated with the key `'product'`. This value is shown below:
 
 ```
-   u'product': {u'_id': u'4890008100309',
+ 'product': {'_id': '4890008100309',
              ...
-             ...
-             u'nutriments': { u'salt': u'0.01016',
-                              u'sodium': u'0.004',
-                              u'sugars': u'10.6',
-                            },
-            ...
-            ... },
+             'nutriments': {'carbohydrates': '10.6',
+                            ...
+                            'salt': '0.01016',
+                            ...
+                            'sodium': '0.004',
+                            ...
+                            'sugars': '10.6',
+                            ...
+                            'sugars_value': '10.6'},
+             'unknown_nutrients_tags': [],
+             'update_key': 'nutriscore-20171111'},
 ```
 
-# Using the JSON object to answer questions
+What we see above is that the key `'product'` is associated with a value as a big dictionary, which means we can go further down the "level". In this nested dictionary, we see that one of the keys `'nutriments'` is associated with a value as another dictionary&mdash;that is, the JSON object we considered earlier. 
 
-TODO: Insert a few "word problems" that can be answered using the JSON.
+```
+'nutriments': {'carbohydrates': '10.6',
+               ...
+               'salt': '0.01016',
+               ...
+               'sodium': '0.004',
+               ...
+               'sugars': '10.6',
+               ...
+               'sugars_value': '10.6'},
+```
 
-Example: Suppose that `cola_data` represents the JSON associated with the product lookup from the sample Python code in the article above.  A complete listing of that JSON appears [at this link](cola_data_json/).    
+# Using the Python Dictionary representation of the JSON object to answer questions
+
+Suppose that `cola_data` represents the Python Dictionary representation of the JSON associated with the product lookup from the sample Python code in the article above.  A complete listing of that JSON appears [at this link](cola_data_as_python_dict/).    
 
 Write a Python expression that would answer each of these questions.
 
-1.  Q: What is the amount of sodium in one serving of this product?   
+1.  Q: What is the UPC number of this product? 
+    
+    A: `cola_data['code']` or `cola_data['product']['_id']`
+    
+2.  Q: What is the name of this product?
 
-    A: `cola_data[u'product'][u'nutriments'][u'sodium']`
+    A: `cola_data['product']['product_name']`
+
+3.  Q: What is the amount of sodium in one serving of this product?   
+
+    A: `cola_data['product']['nutriments']['sodium']`
     
    
