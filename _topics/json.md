@@ -38,80 +38,42 @@ cola_data = cola_json.json()
 pprint(cola_data)
 {% endhighlight %}
 
-On line 5, we create a response object `cola_json` which stores the request-response from the link <https://world.openfoodfacts.org/api/v0/product/4890008100309.json>.
+On line 5-6, we create a response object `cola_json` which stores the request-response from the url <https://world.openfoodfacts.org/api/v0/product/4890008100309.json>.
 
-In order to retrieve the data from the response object, we need to convert the raw response content into a JSON type data structure. This is achieved by using `.json()` method on line 6. The `.json()` method return a Python dictionary object (type `dict`) that represents that same data as the JSON that was returned from url.
+In order to retrieve the data from the response object, we need to convert the raw response content into a JSON type data structure. This is achieved by using `.json()` method on line 7. The `.json()` method return a Python dictionary object (type `dict`) that represents that same data as the JSON that was returned from url.
 
-The `pprint(cola_data)` line gives us a printout of the Python Dictionary representation of this JSON object.  That representation is very large, so we don't include here on this web page, but, you can see it [at this link](cola_data_as_python_dict/)
+The `pprint(cola_data)` line gives us a printout of the Python Dictionary representation of this JSON object. That representation is very large, so we don't include here on this web page, but, you can see it [at this link](cola_data_as_python_dict/)
 
-Since the data contains lots of information about the soft drink, only a snippet of the data is shown&mdash;a full listing appears [at this link](cola_data_json/).  Here's what that would look like (in part):
-
-```python
-{u'code': u'4890008100309',
- u'product': {u'_id': u'4890008100309',
-              u'_keywords': [u'cola', u'coca', u'coke'],
-              u'additives_debug_tags': [],
-              u'additives_old_tags': [],
-              u'additives_original_tags': [],
-              u'additives_prev_original_tags': [],
-              u'additives_prev_tags': [],
-              u'additives_tags': [],
-              u'allergens': u'',
-              u'allergens_hierarchy': [],
-              u'allergens_tags': [],
-              u'brands': u'Coca Cola',
-              u'brands_tags': [u'coca-cola'],
-              u'categories': u'Colas',
-              u'categories_debug_tags': [],
-              u'categories_hierarchy': [u'en:beverages',
-                                        u'en:carbonated-drinks',
-                                        u'en:sodas',
-                                        u'en:colas',
-                                        u'en:sugared-beverages'],
-              u'categories_prev_hierarchy': [u'en:beverages',
-                                             u'en:carbonated-drinks',
-                                             u'en:sodas',
-                                             u'en:colas'],
-              u'categories_prev_tags': [u'en:beverages',
-                                        u'en:carbonated-drinks',
-                                        u'en:sodas',
-                                        u'en:colas'],
-              u'categories_tags': [u'en:beverages',
-                                   u'en:carbonated-drinks',
-                                   u'en:sodas',
-                                   u'en:colas',
-                                   u'en:sugared-beverages'],
-    ...
-```
-
-You may have already noticed the "u" in front of every string. Those are actually a <i>unicode</i> type. For the purpose of this lesson, all you need to know is that unicode is another representation of some text (just like a string). 
-For more details about the difference between unicode and string: <https://stackoverflow.com/questions/18034272/python-str-vs-unicode-types>
-
-As we can see the JSON data above, you can nest one JSON object inside another, the same way that Python dictionaries can be nested one inside the other. Notice that the JSON object we dealt with before appears inside of this one. 
+As you check out the provided link, since `cola_data` is a Python dictionary, you may have noticed that `cola_data` is a nested dictionary&mdash;a dictionary within a dictionary. Notice that the JSON object we dealt with before appears inside of this one. 
 (Note: Some parts of the data have been cut out and replaced with `...` so that we can see the overall structure of the remaining data more clearly.) 
 
 ```
-{u'code': u'4890008100309',
- u'product': {u'_id': u'4890008100309',
+{'code': '4890008100309',
+ 'product': {'_id': '4890008100309',
              ...
-             u'nutriments': { u'salt': u'0.01016',
-                              u'sodium': u'0.004',
-                              u'sugars': u'10.6',
-                            },
-            ...
-            },
- u'status': 1,
- u'status_verbose': u'product found'}
+             'nutriments': {'carbohydrates': '10.6',
+                            ...
+                            'salt': '0.01016',
+                            ...
+                            'sodium': '0.004',
+                            ...
+                            'sugars': '10.6',
+                            ...
+                            'sugars_value': '10.6'},
+             'unknown_nutrients_tags': [],
+             'update_key': 'nutriscore-20171111'},
+ 'status': 1,
+ 'status_verbose': 'product found'}
 ```
 
-Let's break this down a bit.  This entire sequence is a single JSON object, which in Python terms, corresponds to a dictionary.  It has a sequence of keys and values.
+Let's break this down a bit. This entire sequence is a single Python dictionary that has a sequence of keys and values. Recall that `cola_data` is a nested dictionary, so it will have multiple "levels" of dictionaries&mdash;each level consisting its own sequence of keys and values. 
 
-First, let's identify the keys in this dictionary.  They are:
+At the highest (or first) level, let's identify the keys in this dictionary.  They are:
 
-  * `u'code'`
-  * `u'product'`
-  * `u'status'`
-  * `u'status_verbose'`
+  * `'code'`
+  * `'product'`
+  * `'status'`
+  * `'status_verbose'`
 
 Next, let's concentrate on just these lines.  What we see is that the key `u'product'` is associated with a value as a big dictionary. In this nested dictionary, we see that one of the keys `u'nutriments'` is associated with a value as another dictionary&mdash;that is, the JSON object we considered earlier.
 
