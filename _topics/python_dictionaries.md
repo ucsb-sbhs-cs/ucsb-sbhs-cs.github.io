@@ -231,21 +231,21 @@ array_of_data = [cola_data, sprite_data, fanta_data, dr._pepper_data]
 
 Let's try to create a Python Dictionary only consisting of the item's UPC number as the key and the item's product name as the value, which what this code does:
 
-{% highlight Python linenos %} 
-  array_of_data = [cola_data, sprite_data, fanta_data, dr._pepper_data]
-  list_of_UPC_number = {}
-  for items in list_of_data:
-    list_of_UPC_number[items[u'code']] = items[u'product'][u'product_name']  
-  pprint(list_of_UPC_number)
+{% highlight Python linenos %}
+array_of_data = [cola_data, sprite_data, fanta_data, dr_pepper_data,pepsi_data]
+list_of_UPC_number = {}
+for items in array_of_data:
+   list_of_UPC_number[items['code']] = items['product']['product_name']  
+pprint(list_of_UPC_number)
 {% endhighlight %}
 
 This is what the above code prints out:
 ```
-{u'4060800100252': u'Pepsi',
- u'4890008100309': u'Coca Cola Coke',
- u'5449000014535': u'Sprite',
- u'8435185944009': u'Dr Pepper',
- u'8847100560094': u'Fanta Orange'}
+{'4060800100252': 'Pepsi',
+ '4890008100309': 'Coca Cola Coke',
+ '5449000014535': 'Sprite',
+ '8435185944009': 'Dr Pepper',
+ '8847100560094': 'Fanta Orange'}
 ```
 
 Let's discuss the code line by line. 
