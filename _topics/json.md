@@ -66,7 +66,7 @@ As you check out the provided link, since `cola_data` is a Python dictionary, yo
  'status_verbose': 'product found'}
 ```
 
-Let's break this down a bit. This entire sequence is a single Python dictionary that has a sequence of keys and values. Recall that `cola_data` is a nested dictionary, so it will have multiple "levels" of dictionaries&mdash;each level consisting its own sequence of keys and values. 
+Let's break this down a bit. This entire sequence is a single Python dictionary that has a sequence of keys and values. Recall that `cola_data` is a nested dictionary, so it has multiple "levels" of dictionaries&mdash;each level consisting its own sequence of keys and values. 
 
 At the highest (or first) level, let's identify the keys in this dictionary.  They are:
 
@@ -89,7 +89,7 @@ At the next level, let's look at the value associated with the key `'product'`. 
                             'sugars': '10.6',
                             ...
                             'sugars_value': '10.6'},
-             'unknown_nutrients_tags': [],
+             ...
              'update_key': 'nutriscore-20171111'},
 ```
 
@@ -107,7 +107,7 @@ What we see above is that the key `'product'` is associated with a value as a bi
                'sugars_value': '10.6'},
 ```
 
-# Using the Python Dictionary representation of the JSON object to answer questions
+# Using the Python Dictionary Representation of the JSON Object to Answer Questions
 
 Suppose that `cola_data` represents the Python Dictionary representation of the JSON associated with the product lookup from the sample Python code in the article above.  A complete listing of that JSON appears [at this link](cola_data_as_python_dict/).    
 
