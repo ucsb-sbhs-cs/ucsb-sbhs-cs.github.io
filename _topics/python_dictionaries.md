@@ -263,7 +263,7 @@ Let's discuss the code line by line.
 
 * Line 5 prints out the newly assinged dictionary with the corresponding key and value pair. 
  
-#Using the Python Dictionary Representation of the JSON Object to Answer Questions
+# Using the Python Dictionary Representation of the JSON Object to Answer Questions
 
 Suppose that there is a given code such that `array_of_data` represents an array of Python Dictionaries that represent the JSON data associated with these soft drink products: [Coca Cola Coke](https://world.openfoodfacts.org/api/v0/product/4890008100309.json), [Pepsi](https://world.openfoodfacts.org/api/v0/product/4060800100252.json), [Sprite](https://world.openfoodfacts.org/api/v0/product/5449000014535.json), [Fanta Orange](https://world.openfoodfacts.org/api/v0/product/8847100560094.json), [Dr. Peper](https://world.openfoodfacts.org/api/v0/product/8435185944009.json). Similiar to the sample Python code above, there is a given Python dictionary called `soft_drinks_dict`, and each soft drink in `array_of_data` will be iterated as `item`.  
 
@@ -273,6 +273,6 @@ Write a Python expression that would answer these questions.
 
    A: `soft_drinks_dict[item['product']['product_name']] = items['code']`
 
-Q: What would you need in the for loop in order to get the product name as a key and the amount of in one serving as a value? 
+2. Q: What would you need in the for loop in order to get the product name as a key and the amount of in one serving as a value? 
 
    A: `soft_drinks_dict[item['product']['product_name']] = item['product']['nutriments']['sodium']`
