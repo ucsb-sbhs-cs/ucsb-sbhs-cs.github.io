@@ -273,6 +273,6 @@ Write a Python expression that would answer these questions.
 
    A: `soft_drinks_dict[item['product']['product_name']] = items['code']`
 
-2. Q: What would you need in the for loop in order to get the product name as a key and the amount of in one serving as a value? 
+2. Q: What would you need in the for-loop in order to get the product name as a key and the amount of in one serving as a value? 
 
    A: `soft_drinks_dict[item['product']['product_name']] = item['product']['nutriments']['sodium']`
