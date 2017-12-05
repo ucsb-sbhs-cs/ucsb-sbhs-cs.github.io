@@ -255,13 +255,24 @@ Let's discuss the code line by line.
 
 * Line 4 may look weird at first, but it is not as confusing as it seems. It is easy to understand if you can see how this line is structure first. We know that `list_of_UPC_number` is a dictionary since we declared it as a dictionary. If you remember correctly, one way to assign a key/value pair into the dictionary is: list_of_UPC_number[`key`] = `value`.
 
-As we mentioned already, `items` are the elements in `array_of_data`; hence, `items` are the JSON data of the soft drinks that are structured in a Python dictionary. With this knowledge, you may now know how this line works. 
+     As we mentioned already, `items` are the elements in `array_of_data`; hence, `items` are the JSON data of the soft drinks that are structured in a Python dictionary. With this knowledge, you may now know how this line works. 
 `items['code']` is a value in the dictionary with `'code'` as the key, which is the UPC number. 
 `items['product']['product_name']` is calling out a value in a dictionary within a dictionary.  `items` is a dictionary with one of its key `'product'` that is paired with a value as a dictionary. Now, `'product'` is a dictionary with one of its key `'product_name'` that is paired with a value as the product name (or the name of the soft drink). 
 
-Therefore, we can see that `list_of_UPC_number[items['code']] = items['product']['product_name']` is only assigning a key/value pair into the dictionary with the key as the UPC number of the soft drink and the value as the name of the same soft drink. 
+   Therefore, we can see that `list_of_UPC_number[items['code']] = items['product']['product_name']` is only assigning a key/value pair into the dictionary with the key as the UPC number of the soft drink and the value as the name of the same soft drink. 
 
 * Line 5 prints out the newly assinged dictionary with the corresponding key and value pair. 
  
+#Using the Python Dictionary Representation of the JSON Object to Answer Questions
 
+Suppose that there is a given code such that `array_of_data` represents an array of Python Dictionaries that represent the JSON data associated with these soft drink products: [Coca Cola Coke](https://world.openfoodfacts.org/api/v0/product/4890008100309.json), [Pepsi](https://world.openfoodfacts.org/api/v0/product/4060800100252.json), [Sprite](https://world.openfoodfacts.org/api/v0/product/5449000014535.json), [Fanta Orange](https://world.openfoodfacts.org/api/v0/product/8847100560094.json), [Dr. Peper](https://world.openfoodfacts.org/api/v0/product/8435185944009.json). Similiar to the sample Python code above, there is a given Python dictionary called `soft_drinks_dict`, and each soft drink in `array_of_data` will be iterated as `item`.  
 
+Write a Python expression that would answer these questions.
+
+1. Q: What would you need in the for-loop in order to get the product name as a key and the UPC number of that product as a value? 
+
+   A: `soft_drinks_dict[item['product']['product_name']] = items['code']`
+
+Q: What would you need in the for loop in order to get the product name as a key and the amount of in one serving as a value? 
+
+   A: `soft_drinks_dict[item['product']['product_name']] = item['product']['nutriments']['sodium']`
