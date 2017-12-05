@@ -112,13 +112,57 @@ Once installed, you can now start writing your code.
 
 Remember the URL address that we used in <b>Step 2</b>? We will be using our URL that displays the product's JSON data. In the above example, it was this: <https://world.openfoodfacts.org/api/v0/product/0894700010045.json>. 
 
-First, you will want to import the `Requests` Library in your code. By importing the `Requests` Library, you are now allowed to use the functionality in this library. For the purpose of this exercise, we will only be using the `get()` method, which gets the product's data from the web by passing in the corresponding URL as a string parameter. Hence, your code should start off like this: 
+First, you will want to import the `Requests` Library in your code. By importing the `Requests` Library, you are now allowed to use the functionality in this library. For the purpose of this exercise, we will only be using the `get()` method, which gets the product's data from the web by passing in the corresponding URL as a string argument. Hence, your code should start off like this: 
 
 {% highlight Python linenos %}
 import requests 
 
-yogurt_data = requests.get('https://world.openfoodfacts.org/api/v0/product/0894700010045.json')
+yogurt_data = requests.get(
+                      'https://world.openfoodfacts.org/api/v0/product/0894700010045.json')
 {% endhighlight %}
+
+Now, try adding this line `print(yogurt_data)` after line 4. Your first intuition will think that the whole JSON data of your product will print out, but you found out that the code printed out something like this:
+
+```
+<Response [200]> 
+```
+
+We can first confirm why it prints this out by checking what type of variable `yogurt_data` is. You can see the varable type by using `type()` with any varaible as the argument. If you do that, you can see that the code outputs: 
+
+```
+<class 'requests.models.Response'>
+```
+
+From this output, it tells us that `yogurt_data` is currently a response object which stores the request-response from the url that we passed in when we called `request.get()`. 
+
+In order to retrieve the data from the response object, we need to convert the raw response content into a JSON type data structure. This is acheived by using `.json()` method. However, before that, we need to make sure that we import the `json` library. Thus, your code should look something similiar to this: 
+
+{% highlight Python linenos %}
+import requests 
+import json
+
+yogurt_data = requests.get(
+                      'https://world.openfoodfacts.org/api/v0/product/0894700010045.json')
+yogurt_json = yogurt_data.json()
+{% endhighlight %}
+
+Now, try adding `print(yogurt_json)` into your code. What does your output show? The messy output looks very similiar to the JSON data that we have found on the web <i>without</i> the JSON formatting extension. We see a paragraph-looking output, giving difficulty to read. 
+
+Luckily, Python has a library that can print out `yogurt_json` in a more readable format&mdash;similar to the JSON data on the web <i>with</i> the JSON formatting extension. To have a more readable output, the code needs to use `pprint()`. Thus, your code should looks like this: 
+
+{% highlight Python linenos %}
+import requests 
+import json
+from pprint import pprint
+
+yogurt_data = requests.get(
+                      'https://world.openfoodfacts.org/api/v0/product/0894700010045.json')
+yogurt_json = yogurt_data.json()
+pprint(yogurt_json)
+{% endhighlight %}
+
+With this code, you can now retrieve data from the products that you have found in the "Open Food Facts" API site. 
+
 
 
 
