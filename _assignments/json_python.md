@@ -163,7 +163,9 @@ pprint(yogurt_json)
 
 With this code, you can now retrieve data from the products that you have found in the "Open Food Facts" API site. 
 
+# Step 4: Make a Bar Graph with JSON Data
 
+Check out this site to make a bar graph: <https://pythonspot.com/matplotlib-bar-chart/>
 
 
 For this step, you may find it helpful to look over [Python Dictionaries](https://ucsb-sbhs-cs.github.io/topics/python_dictionaries).
