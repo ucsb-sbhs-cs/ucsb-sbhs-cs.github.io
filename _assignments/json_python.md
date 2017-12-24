@@ -85,7 +85,7 @@ For example, Google Chrome has an extension called "JSON formatter". By having t
           "08947000100xx",
           "0894700010xxx",
           "089470001xxxx",
-          "08947000xxxxx",          
+          "08947000xxxxx",
           "0894700xxxxxx",
           "089470xxxxxxx",
           "08947xxxxxxxx",
@@ -165,7 +165,22 @@ With this code, you can now retrieve data from the products that you have found 
 
 # Step 4: Make a Bar Graph with JSON Data
 
-Check out this site to make a bar graph: <https://pythonspot.com/matplotlib-bar-chart/>
+Refer to this site under the <b>More on bar charts</b> section: <https://pythonspot.com/matplotlib-bar-chart/>.
+
+First, we will need to add `import numpy as np` and `import matplotlib.pyplot as plt` on the top of our code. With these lines, we can now use the module `numpy` and can be refer as `np` instead. (Same for `matplotlib.pyplot`.)
+
+Note: If you get a error message like this: `ModuleNotFoundError: No module named 'numpy'`. Then all you need to do is `pip3 install numpy` to fix the error. (Same if you get this error for `matplotlib`.)
+
+Your task is to use the 3 products that you chose and make a bar graph. 
+
+Make sure in your graph, the product's name, the title and the axis labels are named appropriately. 
+
+In the end, your graph should look similiar to the image below:
+
+However, for your graph, you should have 3 different products listed. Also, instead of salt, sodium and sugars, your graph should have the product nutriments of calcium, cholesterol and potassium. Make sure you check your data to see what appropriate axis to use. 
+
+Note: if you noticed that one of your "bar" in your graph is not appearing, then check your data what data type it is using. (Hint: remember using `type()` in <b>Step 3</b>.)
+
 
 
 For this step, you may find it helpful to look over [Python Dictionaries](https://ucsb-sbhs-cs.github.io/topics/python_dictionaries).
