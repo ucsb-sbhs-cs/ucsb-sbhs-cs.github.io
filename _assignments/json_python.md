@@ -95,10 +95,9 @@ For example, Google Chrome has an extension called "JSON formatter". By having t
           "0xxxxxxxxxxxx"
      ],
      "countries_debug_tags": [],
-     ...
 {% endhighlight %}
 
-(Note: Since the data is very large, only the beginning parts of the data is shonw and the remaining parts are replaced with ... ) (You can look at the full list at this [link](https://gist.github.com/yukelele/d7b7119396d15be66dba032501697f26).)
+(Note: Since the data is very large, only the beginning portion of the data is shown and the remaining parts are replaced with ... ) (You can look at the full list at this [link](https://gist.github.com/yukelele/d7b7119396d15be66dba032501697f26).)
 
 Now that you can easily read the JSON data on the web, we can finally move along to the next step!
 
@@ -127,7 +126,7 @@ Now, try adding this line `print(yogurt_data)` after line 4. Your first intuitio
 <Response [200]> 
 ```
 
-We can first confirm why it prints this out by checking what type of variable `yogurt_data` is. You can see the varable type by using `type()` with any varaible as the argument. If you do that, you can see that the code outputs: 
+We can first confirm why it prints this out by checking what type of variable `yogurt_data` is. You can see the variable type by using `type()` with any variable as the argument. If you do that, you can see that the code outputs: 
 
 ```
 <class 'requests.models.Response'>
