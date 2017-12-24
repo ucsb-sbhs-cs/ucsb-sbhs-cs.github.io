@@ -98,7 +98,7 @@ For example, Google Chrome has an extension called "JSON formatter". By having t
      ...
 {% endhighlight %}
 
-(Note: Since the data is very large, only the beginning parts of the data is shonw and the remaining parts are replaced with ... )
+(Note: Since the data is very large, only the beginning parts of the data is shonw and the remaining parts are replaced with ... ) (You can look at the full list at this [link](https://gist.github.com/yukelele/d7b7119396d15be66dba032501697f26).)
 
 Now that you can easily read the JSON data on the web, we can finally move along to the next step!
 
