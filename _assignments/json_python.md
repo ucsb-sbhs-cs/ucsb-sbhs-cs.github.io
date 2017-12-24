@@ -177,6 +177,6 @@ Make sure in your graph, the product's name, the title and the axis labels are n
 
 In the end, your graph should look similiar to this [image](https://gist.github.com/yukelele/f2578659aadfffe1b9ccd00906c29567).
 
-However, for your graph, you should have 3 different products listed. Also, instead of salt, sodium and sugars, your graph should have the product nutriments of calcium, cholesterol and potassium. Make sure you check your data to see what appropriate axis to use. 
+However, for your graph, you should have 3 different products listed. Also, instead of salt and sodium, your graph should have the product nutriments of calcium, cholesterol and potassium. Make sure you check your data to see what appropriate axis to use. (Hint: you can find the nurtiments in your product data under the dictionary `product` then under the dictionary `nutriments`.)
 
 Note: if you noticed that one of your "bar" in your graph is not appearing, then check your data what data type it is using. (Hint: remember using `type()` in <b>Step 3</b>.)
