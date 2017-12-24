@@ -175,16 +175,8 @@ Your task is to use the 3 products that you chose and make a bar graph.
 
 Make sure in your graph, the product's name, the title and the axis labels are named appropriately. 
 
-In the end, your graph should look similiar to the image below:
+In the end, your graph should look similiar to this [image](https://gist.github.com/yukelele/f2578659aadfffe1b9ccd00906c29567).
 
 However, for your graph, you should have 3 different products listed. Also, instead of salt, sodium and sugars, your graph should have the product nutriments of calcium, cholesterol and potassium. Make sure you check your data to see what appropriate axis to use. 
 
 Note: if you noticed that one of your "bar" in your graph is not appearing, then check your data what data type it is using. (Hint: remember using `type()` in <b>Step 3</b>.)
-
-
-
-For this step, you may find it helpful to look over [Python Dictionaries](https://ucsb-sbhs-cs.github.io/topics/python_dictionaries).
-
-
-
-
