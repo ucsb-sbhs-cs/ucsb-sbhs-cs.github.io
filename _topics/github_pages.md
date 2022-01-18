@@ -84,9 +84,9 @@ On that page, you should see a link to a menu for Settings as shown here. Click 
 
 ![repo_settings_menu.png](repo_settings_menu_50pct.png)
 
-That will take you to a page with a URL of the form `http://github.com/`<em>your-user-name</em>`/`<em>your-repo-name</em>`/settings`  That page should look like the one below, where you will Scroll down until you get to the GitHub Pages section.
+That will take you to a page with a URL of the form `http://github.com/`<em>your-user-name</em>`/`<em>your-repo-name</em>`/settings`  In the left menu, click on 'Pages.'  This will take you to the GitHub Pages page.
 
-In the GitHub Pages section, you will see a drop down menu in the Source subsection.  Select `master branch` in this drop down menu.  Then click save.
+On the GitHub Pages page, you will see a drop down menu in the Source subsection.  Select `main` in this drop down menu.  Then click save.
 
 
 # Viewing your webpage at username.github.io/repo-name
