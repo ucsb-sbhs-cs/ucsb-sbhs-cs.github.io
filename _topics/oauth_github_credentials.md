@@ -24,7 +24,7 @@ To create the values for `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`:
 
    Note: A key problem that folks run into with OAuth is the http vs https
    problem.   If you are using Flask, be sure that your code for the
-   `/login` route looks like this (note the `_scheme='https'`).
+   `/login` route looks like this (note the `_scheme='https'`).  
 
    ```python
    @app.route('/login')
@@ -32,6 +32,10 @@ To create the values for `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`:
          return github.authorize(callback=url_for('authorized',
 	                         _external=True, _scheme='https'))
 
+   ```
+   However, if you are running locally, the scheme should be `http` (no 's'), and you should also add the following line of code to you Python code.  DELETE IT before deploying to Heroku.  Otherwise your app will be insecure.
+   ```python
+   os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1' #Remove once done running locally
    ```
    
    Also, if you changed the line of code that looks like this, so that the
