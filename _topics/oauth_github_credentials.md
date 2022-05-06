@@ -18,9 +18,9 @@ To create the values for `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`:
    | Value | Explanation | Example of what to fill in |
    |-------|-------------|----------------------------|
    | Application name | This is what the user will see when they are being given a choice as to whether to authorize your application to access their github account | `Chris' OAuth Test` |
-   | Homepage URL | The https URL for the root page of your application | Either `https://salty-sea-12345.herokuapp.com` or <br> `https://127.0.0.1:5000` |
+   | Homepage URL | The https URL for the root page of your application | Either `https://salty-sea-12345.herokuapp.com` or <br> `http://127.0.0.1:5000` |
    | Application Description | Anything else you want the user to see when logging into your app for the very first time | This is a test of OAuth for my programming class|
-   | Authorization callback URL | The URL for the route that processes the OAuth callback.  Typically https, and typically is the root URL followed by `/login/authorized` | Either `https://salty-sea-12345.herokuapp.com/login/authorized` or <br> `https://127.0.0.1:5000/login/authorized` |
+   | Authorization callback URL | The URL for the route that processes the OAuth callback.  Typically https, and typically is the root URL followed by `/login/authorized` | Either `https://salty-sea-12345.herokuapp.com/login/authorized` or <br> `http://127.0.0.1:5000/login/authorized` |
 
    Note: A key problem that folks run into with OAuth is the http vs https
    problem.   If you are using Flask, be sure that your code for the
